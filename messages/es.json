@@ -6,7 +6,9 @@
     "radio": "Radio Sueño",
     "references": "Referencias",
     "downloads": "Descargas",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "menu": "Menú",
+    "closeMenu": "Cerrar menú"
   },
   "player": {
     "nowPlaying": "Reproduciendo",

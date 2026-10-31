@@ -4,18 +4,26 @@
   --background: #ffffff;
   --surface: #f4f4f4;
   --surface-elevated: #ffffff;
+  --surface-strong: #e9e9eb;
   --foreground: #121212;
-  --muted: #5a5a5a;
+  --foreground-muted: #6b6b70;
+  --muted: #6b6b70;
   --accent: #ff6a3d;
   --accent-foreground: #ffffff;
   --border: #e5e5e5;
+  --shadow-card: 0 1px 3px rgba(18, 18, 18, 0.08), 0 8px 20px rgba(18, 18, 18, 0.06);
+  --shadow-elevated: 0 12px 32px rgba(18, 18, 18, 0.14);
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-surface: var(--surface);
   --color-surface-elevated: var(--surface-elevated);
+  --color-surface-strong: var(--surface-strong);
   --color-foreground: var(--foreground);
+  --color-foreground-muted: var(--foreground-muted);
   --color-muted: var(--muted);
   --color-accent: var(--accent);
   --color-accent-foreground: var(--accent-foreground);
@@ -28,12 +36,16 @@
   :root {
     --background: #0a0a0a;
     --surface: #121212;
-    --surface-elevated: #1a1a1a;
-    --foreground: #ededed;
+    --surface-elevated: #181818;
+    --surface-strong: #242424;
+    --foreground: #f2f2f2;
+    --foreground-muted: #a7a7a7;
     --muted: #a7a7a7;
     --accent: #ff6a3d;
     --accent-foreground: #0a0a0a;
     --border: #2a2a2a;
+    --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.4), 0 10px 28px rgba(0, 0, 0, 0.5);
+    --shadow-elevated: 0 20px 48px rgba(0, 0, 0, 0.6);
   }
 }
 
@@ -48,6 +60,7 @@ html {
 body {
   background: var(--background);
   color: var(--foreground);
+  -webkit-tap-highlight-color: transparent;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -79,7 +92,7 @@ body {
 }
 
 .prose-sueno :where(em) {
-  color: var(--muted);
+  color: var(--foreground-muted);
 }
 
 .prose-sueno :where(strong) {
@@ -93,5 +106,24 @@ body {
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+/* Safe-area aware padding for fixed bottom chrome (notches / home indicators). */
+.pb-safe {
+  padding-bottom: calc(var(--safe-bottom));
+}
+
+.pt-safe {
+  padding-top: calc(var(--safe-top));
+}
+
+/* Subtle press feedback for touch targets that don't have a hover state on mobile. */
+.tap-scale {
+  transition: transform 0.12s ease, opacity 0.12s ease;
+}
+
+.tap-scale:active {
+  transform: scale(0.94);
+  opacity: 0.85;
 }
 
