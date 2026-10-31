@@ -20,7 +20,9 @@
     "playAlbum": "Lire l'album",
     "playAll": "Tout lire",
     "queue": "File d'attente",
-    "noTrack": "Aucun morceau sélectionné"
+    "noTrack": "Aucun morceau sélectionné",
+    "expand": "Agrandir le lecteur",
+    "collapse": "Réduire le lecteur"
   },
   "common": {
     "readMore": "En savoir plus",

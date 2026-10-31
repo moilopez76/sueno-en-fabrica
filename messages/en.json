@@ -20,7 +20,9 @@
     "playAlbum": "Play album",
     "playAll": "Play all",
     "queue": "Queue",
-    "noTrack": "No track selected"
+    "noTrack": "No track selected",
+    "expand": "Expand player",
+    "collapse": "Collapse player"
   },
   "common": {
     "readMore": "Read more",

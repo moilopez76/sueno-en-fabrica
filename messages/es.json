@@ -20,7 +20,9 @@
     "playAlbum": "Reproducir álbum",
     "playAll": "Reproducir todo",
     "queue": "Cola",
-    "noTrack": "Ninguna pista seleccionada"
+    "noTrack": "Ninguna pista seleccionada",
+    "expand": "Ampliar el reproductor",
+    "collapse": "Reducir el reproductor"
   },
   "common": {
     "readMore": "Leer más",
