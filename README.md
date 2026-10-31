@@ -79,3 +79,5 @@ network access to the old site.
 - `sitemap.xml`, `robots.txt`, per-page Open Graph metadata, hreflang alternates and JSON-LD
   (`MusicGroup`/`MusicAlbum`) are generated from the same `/content` data — see `app/sitemap.ts`,
   `app/robots.ts` and `lib/seo.ts`.
+- Set `NEXT_PUBLIC_SITE_URL` (e.g. `https://suenoenlafabrica.com`) in production so canonical URLs,
+  `sitemap.xml` and Open Graph tags point at the real domain instead of the placeholder default.
