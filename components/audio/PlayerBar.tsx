@@ -4,6 +4,17 @@ import { useState } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { useAudio } from "./AudioProvider";
+import {
+  IconChevronDown,
+  IconPause,
+  IconPlay,
+  IconRepeat,
+  IconRepeatOne,
+  IconShuffle,
+  IconSkipBack,
+  IconSkipForward,
+  IconVolume,
+} from "@/components/icons/Icons";
 
 function formatTime(seconds: number): string {
   if (!Number.isFinite(seconds) || seconds < 0) return "0:00";
@@ -43,32 +54,37 @@ export function PlayerBar() {
         onClick={toggleShuffle}
         aria-pressed={shuffle}
         aria-label={t("shuffle")}
-        className={`text-lg ${shuffle ? "text-[var(--accent)]" : "text-[var(--foreground-muted)]"}`}
+        className={`tap-scale ${shuffle ? "text-[var(--accent)]" : "text-[var(--foreground-muted)]"}`}
       >
-        ⤨
+        <IconShuffle className="h-5 w-5" />
       </button>
-      <button type="button" onClick={previous} aria-label={t("previous")} className="text-xl text-[var(--foreground)]">
-        ⏮
+      <button
+        type="button"
+        onClick={previous}
+        aria-label={t("previous")}
+        className="tap-scale text-[var(--foreground)]"
+      >
+        <IconSkipBack className="h-6 w-6" />
       </button>
       <button
         type="button"
         onClick={togglePlay}
         aria-label={isPlaying ? t("pause") : t("play")}
-        className="flex h-9 w-9 items-center justify-center rounded-full bg-[var(--accent)] text-black"
+        className="tap-scale flex h-10 w-10 items-center justify-center rounded-full bg-[var(--accent)] text-black shadow-[var(--shadow-card)]"
       >
-        {isPlaying ? "❚❚" : "▶"}
+        {isPlaying ? <IconPause className="h-5 w-5" /> : <IconPlay className="h-5 w-5 translate-x-[1px]" />}
       </button>
-      <button type="button" onClick={next} aria-label={t("next")} className="text-xl text-[var(--foreground)]">
-        ⏭
+      <button type="button" onClick={next} aria-label={t("next")} className="tap-scale text-[var(--foreground)]">
+        <IconSkipForward className="h-6 w-6" />
       </button>
       <button
         type="button"
         onClick={cycleRepeat}
         aria-pressed={repeat !== "off"}
         aria-label={t("repeat")}
-        className={`text-lg ${repeat !== "off" ? "text-[var(--accent)]" : "text-[var(--foreground-muted)]"}`}
+        className={`tap-scale ${repeat !== "off" ? "text-[var(--accent)]" : "text-[var(--foreground-muted)]"}`}
       >
-        {repeat === "one" ? "🔂" : "🔁"}
+        {repeat === "one" ? <IconRepeatOne className="h-5 w-5" /> : <IconRepeat className="h-5 w-5" />}
       </button>
     </div>
   );
@@ -91,46 +107,48 @@ export function PlayerBar() {
 
   return (
     <>
-      {expanded && (
-        <div
-          className="fixed inset-0 z-50 flex flex-col bg-[var(--background)] px-6 py-8 md:hidden"
-          role="dialog"
-          aria-modal="true"
-          aria-label={t("nowPlaying")}
-        >
-          <button
-            type="button"
-            onClick={() => setExpanded(false)}
-            aria-label={t("collapse")}
-            className="mb-6 self-start text-2xl text-[var(--foreground-muted)]"
-          >
-            ⌄
-          </button>
-          <div className="flex flex-1 flex-col items-center justify-center gap-8">
-            <Image
-              src={currentTrack.cover.localSrc || currentTrack.cover.src}
-              alt={currentTrack.cover.alt || currentTrack.albumTitle}
-              width={320}
-              height={320}
-              className="h-72 w-72 max-w-full flex-shrink-0 rounded-lg object-cover shadow-xl"
-              priority
-            />
-            <div className="w-full max-w-sm text-center">
-              <p className="truncate text-xl font-semibold text-[var(--foreground)]">{currentTrack.title}</p>
-              <p className="truncate text-sm text-[var(--foreground-muted)]">{currentTrack.albumTitle}</p>
-            </div>
-            {error && (
-              <p className="text-center text-xs text-red-500" role="alert">
-                {error}
-              </p>
-            )}
-            <div className="w-full max-w-sm">{seekBar}</div>
-            <div className="scale-125">{transportControls}</div>
-          </div>
-        </div>
-      )}
       <div
-        className="fixed inset-x-0 bottom-[56px] z-40 border-t border-[var(--border)] bg-[var(--surface-strong)]/95 backdrop-blur md:bottom-0"
+        className={`pt-safe fixed inset-0 z-50 flex flex-col bg-[var(--background)] px-6 pb-8 transition-all duration-300 ease-out md:hidden ${
+          expanded ? "translate-y-0 opacity-100" : "pointer-events-none translate-y-6 opacity-0"
+        }`}
+        role="dialog"
+        aria-modal={expanded}
+        aria-hidden={!expanded}
+        aria-label={t("nowPlaying")}
+      >
+        <button
+          type="button"
+          onClick={() => setExpanded(false)}
+          aria-label={t("collapse")}
+          tabIndex={expanded ? 0 : -1}
+          className="tap-scale mb-4 flex h-11 w-11 items-center justify-center self-start rounded-full text-[var(--foreground-muted)] active:bg-[var(--surface-strong)]"
+        >
+          <IconChevronDown className="h-7 w-7" />
+        </button>
+        <div className="flex flex-1 flex-col items-center justify-center gap-8">
+          <Image
+            src={currentTrack.cover.localSrc || currentTrack.cover.src}
+            alt={currentTrack.cover.alt || currentTrack.albumTitle}
+            width={320}
+            height={320}
+            className="h-72 w-72 max-w-full flex-shrink-0 rounded-2xl object-cover shadow-[var(--shadow-elevated)]"
+            priority={expanded}
+          />
+          <div className="w-full max-w-sm text-center">
+            <p className="truncate text-xl font-bold tracking-tight text-[var(--foreground)]">{currentTrack.title}</p>
+            <p className="truncate text-sm text-[var(--foreground-muted)]">{currentTrack.albumTitle}</p>
+          </div>
+          {error && (
+            <p className="text-center text-xs text-red-500" role="alert">
+              {error}
+            </p>
+          )}
+          <div className="w-full max-w-sm">{seekBar}</div>
+          <div className="scale-125">{transportControls}</div>
+        </div>
+      </div>
+      <div
+        className="pb-safe fixed inset-x-0 bottom-[64px] z-40 border-t border-[var(--border)] bg-[var(--surface-strong)]/85 backdrop-blur-xl md:bottom-0"
         role="region"
         aria-label={t("nowPlaying")}
       >
@@ -139,58 +157,61 @@ export function PlayerBar() {
             {error}
           </p>
         )}
-        <div className="flex items-center gap-3 px-3 py-2 md:px-4">
+        <div className="flex items-center gap-3 px-3 py-2 md:grid md:grid-cols-[minmax(0,1fr)_minmax(0,auto)_minmax(0,1fr)] md:items-center md:gap-4 md:px-4">
           <button
             type="button"
             onClick={() => setExpanded(true)}
             aria-label={t("expand")}
-            className="flex min-w-0 flex-1 items-center gap-3 text-left md:hidden"
+            className="tap-scale flex min-w-0 flex-1 items-center gap-3 text-left md:hidden"
           >
             <Image
               src={currentTrack.cover.localSrc || currentTrack.cover.src}
               alt={currentTrack.cover.alt || currentTrack.albumTitle}
               width={56}
               height={56}
-              className="h-12 w-12 flex-shrink-0 rounded object-cover"
+              className="h-12 w-12 flex-shrink-0 rounded-lg object-cover shadow-[var(--shadow-card)]"
             />
             <span className="min-w-0 flex-1">
-              <span className="block truncate text-sm font-medium text-[var(--foreground)]">{currentTrack.title}</span>
+              <span className="block truncate text-sm font-semibold text-[var(--foreground)]">{currentTrack.title}</span>
               <span className="block truncate text-xs text-[var(--foreground-muted)]">{currentTrack.albumTitle}</span>
             </span>
           </button>
-
-          <Image
-            src={currentTrack.cover.localSrc || currentTrack.cover.src}
-            alt={currentTrack.cover.alt || currentTrack.albumTitle}
-            width={56}
-            height={56}
-            className="hidden h-14 w-14 flex-shrink-0 rounded object-cover md:block"
-          />
-          <div className="hidden min-w-0 flex-1 md:block">
-            <p className="truncate text-sm font-medium text-[var(--foreground)]">{currentTrack.title}</p>
-            <p className="truncate text-xs text-[var(--foreground-muted)]">{currentTrack.albumTitle}</p>
-          </div>
 
           <div className="flex items-center gap-1 md:hidden">
             <button
               type="button"
               onClick={togglePlay}
               aria-label={isPlaying ? t("pause") : t("play")}
-              className="flex h-10 w-10 items-center justify-center rounded-full bg-[var(--accent)] text-black"
+              className="tap-scale flex h-10 w-10 items-center justify-center rounded-full bg-[var(--accent)] text-black shadow-[var(--shadow-card)]"
             >
-              {isPlaying ? "❚❚" : "▶"}
+              {isPlaying ? <IconPause className="h-5 w-5" /> : <IconPlay className="h-5 w-5 translate-x-[1px]" />}
             </button>
           </div>
 
-          <div className="hidden flex-1 flex-col items-center gap-1 md:flex md:max-w-xl">
+          {/* Desktop left: track info */}
+          <div className="hidden min-w-0 items-center gap-3 md:flex">
+            <Image
+              src={currentTrack.cover.localSrc || currentTrack.cover.src}
+              alt={currentTrack.cover.alt || currentTrack.albumTitle}
+              width={56}
+              height={56}
+              className="h-14 w-14 flex-shrink-0 rounded-lg object-cover shadow-[var(--shadow-card)]"
+            />
+            <div className="min-w-0">
+              <p className="truncate text-sm font-medium text-[var(--foreground)]">{currentTrack.title}</p>
+              <p className="truncate text-xs text-[var(--foreground-muted)]">{currentTrack.albumTitle}</p>
+            </div>
+          </div>
+
+          {/* Desktop center: transport controls + seek bar */}
+          <div className="hidden w-full max-w-xl flex-col items-center gap-1 md:flex md:justify-self-center">
             {transportControls}
             {seekBar}
           </div>
 
-          <div className="hidden items-center gap-2 md:flex">
-            <span aria-hidden className="text-[var(--foreground-muted)]">
-              🔊
-            </span>
+          {/* Desktop right: volume */}
+          <div className="hidden items-center gap-2 md:flex md:justify-self-end">
+            <IconVolume aria-hidden className="h-4 w-4 text-[var(--foreground-muted)]" />
             <input
               type="range"
               min={0}
