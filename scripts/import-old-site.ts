@@ -395,8 +395,14 @@ async function importSite(locale: Locale, albums: Album[]): Promise<SiteContent>
 }
 
 async function rewriteFooterHtml($: Cheerio$, footerEl: ReturnType<Cheerio$>): Promise<string> {
-  // The footer has no media of its own (just text + the dclic.info link); keep it verbatim.
-  return footerEl.html()?.trim() ?? "";
+  // The footer has no media of its own; keep the text verbatim except for the
+  // "Réalisation" credit link, which by explicit request now points to this
+  // remaster's author instead of the original site builder (D'CLIC Informatique).
+  const html = footerEl.html()?.trim() ?? "";
+  return html.replace(
+    /<a href="https:\/\/www\.dclic\.info"[^>]*>[^<]*<\/a>/i,
+    '<a href="https://moi-lopez.com" target="_blank" title="Moises Lopez">Moises Lopez</a>',
+  );
 }
 
 // ---------------------------------------------------------------------------
