@@ -1,0 +1,29 @@
+{
+  "slug": "filaments",
+  "category": "show",
+  "locale": "en",
+  "oldFile": "filaments.php",
+  "oldUrl": "https://www.suenoenlafabrica.com/filaments.php?lang=en",
+  "title": "Filaments",
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/filaments.jpg",
+    "localSrc": "/media/images/header/filaments.jpg",
+    "alt": "Filaments"
+  },
+  "bodyHtml": "<br>\n<br>\n\n\n<p>Created as part of \"Re-tissons le territoire\" in the Communauté de Communes de L’Ouest Rhodanien (C.O.R) this show based on various which collect (testimonials, images, sounds) traces the history of textiles in the region.</p>\n\n<strong>With:</strong>\n<ul>\n  <li><strong>Alejandra SANTANDER:</strong> voice, sound objects, images videos</li>\n  <li><strong>Didier BOYAT:</strong> guitars, sound objects, sound, mixing</li>\n  <li><strong>Nicolas PELLIER:</strong> drums, percussion</li>\n  <li><strong>Guillaume GRENARD:</strong> bass, trumpet, tuba, percussion</li>\n  <li><strong>Claude HUSSON:</strong> lights</li>\n  <li><strong>Éric GIRARD:</strong> staging</li>\n</ul>\n\n<br>\n\n\n\n<br>\n<br>\n<br>",
+  "videos": [
+    {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/embed/LRKrrCpuI48?autoplay=1"
+    },
+    {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/embed/_SIEYo5j28M"
+    }
+  ],
+  "gallery": [],
+  "files": [],
+  "externalLinks": [],
+  "relatedAlbumSlugs": [],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – All rights reserved<br>Design: <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Photos: Bernard Dutheil, Marc Dazy | Paintings: Belcha<br><br>Additional photos: Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}

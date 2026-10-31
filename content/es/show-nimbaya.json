@@ -1,0 +1,27 @@
+{
+  "slug": "nimbaya",
+  "category": "show",
+  "locale": "es",
+  "oldFile": "nimbaya.php",
+  "oldUrl": "https://www.suenoenlafabrica.com/nimbaya.php?lang=es",
+  "title": "Nimbaya/Sueño",
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/nimbaya.jpg",
+    "localSrc": "/media/images/header/nimbaya.jpg",
+    "alt": "Nimbaya/Sueño"
+  },
+  "bodyHtml": "<p>En el 2008, Sueño en la Fabrica se excuentra con el grupo NIMBAYA en Canada tras haber participado al Festival Internacional para niños de St Albert.</p>\n\n<p>Gracias a la complicidad con el productor de Nimabaya Mamoudou Condé y a su agente artistica Nathalie Roy, los dos grupos se reunieron en Conakry (Guinea) durante el mes de diciembre del 2010 con el fin de crear un repertorio común a partir de las composiciones propuestas por Alejandra Santander y Didier Boyat y unas cuantas canciones tocadas por Nimbaya.</p>\n\n<p>De este  magnífico trabajo, ha nacido una fusión musical que provoca una gran alegría para ambos grupos. Las percusiones, danzas y voces de las guineanas se mezclan de maravilla con las atmósferas oniricas y modernas de Sueño en la Fabrica. Es con mucho honor que los artistas han compartido su experiencia.</p>\n\n<p>Se realizó una muestra de 45 minutos de musica para praparar los conciertos comunes y un próximo disco.</p>\n\n\n♫ <a href=\"https://www.suenoenlafabrica.com/radio-music.php\"><strong>Escucha la música en Radio Sueño</strong></a> <em>(haga clic en la portada del \"Nimbaya/Sueño\")</em>",
+  "videos": [],
+  "gallery": [],
+  "files": [],
+  "externalLinks": [],
+  "relatedAlbumSlugs": [
+    "alma",
+    "mundo",
+    "donde",
+    "sotomayor",
+    "nimbaya",
+    "inedits"
+  ],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – Todos los derechos reservados<br>Creación: <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Fotos: Bernard Dutheil, Marc Dazy | Pintura: Belcha<br><br>Más fotos: Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}

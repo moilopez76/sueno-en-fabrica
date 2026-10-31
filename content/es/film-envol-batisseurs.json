@@ -1,0 +1,39 @@
+{
+  "slug": "envol-batisseurs",
+  "category": "film",
+  "locale": "es",
+  "oldFile": "film-envol-batisseurs.php",
+  "oldUrl": "https://www.suenoenlafabrica.com/film-envol-batisseurs.php?lang=es",
+  "title": "El vuelo de los constructores",
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/generique.jpg",
+    "localSrc": "/media/images/header/generique.jpg",
+    "alt": "El vuelo de los constructores"
+  },
+  "bodyHtml": "<br><br>\n\n<div class=\"encadre\" style=\"border: none;\">\n\t<h2 style=\"font-size: 1.5em\">Descripción:</h2>\n\t<p>Extracto del documental « El vuelo de los constructores » (L’Envol des bâtisseurs) realizado por Alejandra Santander  en septiembre 2104 en el  CFA de Bourg en Bresse-Francia (Centro de Formación profesional de la construcción y trabajos públicos. Después de haber beneficiado de 10h de iniciación a la lengua española, 8 aprendices  hacen un viaje al sur de España, intercambio con la empresa CIATESA. Esta ocasión le sirve a Alejandra para hacer descubrir el centro de formación de manera original.</p>\n\t<p><strong>Imágenes y Producción :</strong> Alexandra SANTANDER<br><strong>Somido, mezcla y montaje :</strong> Didier Boyat<br><strong>Música :</strong> Sueño en la Fabrica.</p>\t<p align=\"center\"><a href=\"https://www.youtube.com/watch?v=XHP7YSYRZwE\" target=\"_blank\"></a></p>\n</div>\n\n<br>",
+  "videos": [
+    {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/embed/XHP7YSYRZwE?autoplay=1&ap=%2526fmt%3D22"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "https://www.suenoenlafabrica.com/images/youtube.png",
+      "localSrc": "/media/images/youtube.png",
+      "alt": "",
+      "width": 113,
+      "height": 45
+    }
+  ],
+  "files": [],
+  "externalLinks": [
+    {
+      "href": "https://www.youtube.com/watch?v=XHP7YSYRZwE",
+      "label": "COM/WATCH",
+      "external": true
+    }
+  ],
+  "relatedAlbumSlugs": [],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – Todos los derechos reservados<br>Creación: <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Fotos: Bernard Dutheil, Marc Dazy | Pintura: Belcha<br><br>Más fotos: Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}

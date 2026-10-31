@@ -1,0 +1,44 @@
+{
+  "slug": "etincelles",
+  "category": "film",
+  "locale": "fr",
+  "oldFile": "film-etincelles.php",
+  "oldUrl": "https://www.suenoenlafabrica.com/film-etincelles.php?lang=fr",
+  "title": "Étincelles",
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/generique.jpg",
+    "localSrc": "/media/images/header/generique.jpg",
+    "alt": "Étincelles"
+  },
+  "bodyHtml": "<div class=\"encadre\" style=\"border: none;\">\n\t<h2 style=\"font-size: 1.5em\">Bande-annonce \"Étincelles\"</h2>\n\n\t\n\t<br><br>\n\t<p>Bande-annonce du film documentaire \"Étincelles\" réalisé par Alexandra Santander et Didier Boyat au lycée des arts du métal : Ferdinand Fillod à St Amour (39). Une production Fabricassons.</p>\t<p align=\"center\"><a href=\"https://www.youtube.com/watch?v=lfJCANnKt5g\" target=\"_blank\"></a></p>\n</div>\n\n<br>\n\n<div class=\"encadre\" style=\"border: none; text-align: center;\">\n\t<a href=\"https://www.nicolas-salagnac.com/etincelles-un-film-sur-les-formations-des-arts-du-metal/\" target=\"_blank\"><h2 class=\"button_green\" style=\"font-size: 2em; width: 50%; margin: 0 auto 30px auto\"><i class=\"fa fa-film\"></i> &nbsp; Film complet \"Étincelles\"</h2></a>\n\n\t<p>ATELIER DE NICOLAS SALAGNAC : GRAVEUR MÉDAILLEUR Meilleur Ouvrier de France</p>\n</div>",
+  "videos": [
+    {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/embed/lfJCANnKt5g?autoplay=1&ap=%2526fmt%3D22"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "https://www.suenoenlafabrica.com/images/youtube.png",
+      "localSrc": "/media/images/youtube.png",
+      "alt": "",
+      "width": 113,
+      "height": 45
+    }
+  ],
+  "files": [],
+  "externalLinks": [
+    {
+      "href": "https://www.youtube.com/watch?v=lfJCANnKt5g",
+      "label": "COM/WATCH",
+      "external": true
+    },
+    {
+      "href": "https://www.nicolas-salagnac.com/etincelles-un-film-sur-les-formations-des-arts-du-metal/",
+      "label": "Film complet \"Étincelles\"",
+      "external": true
+    }
+  ],
+  "relatedAlbumSlugs": [],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – Tous droits réservés<br>\n    Réalisation : <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Photos : Bernard Dutheil, Marc Dazy | Peinture : Belcha<br><br>Photos du spectacle « Éloge de l’arbre » : Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}

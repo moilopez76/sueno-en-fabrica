@@ -1,0 +1,36 @@
+{
+  "slug": "we-nous-nosotros",
+  "category": "show",
+  "locale": "en",
+  "oldFile": "we-nous-nosotros.php",
+  "oldUrl": "https://www.suenoenlafabrica.com/we-nous-nosotros.php?lang=en",
+  "title": "We, Nous, Nosotros",
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/we.jpg",
+    "localSrc": "/media/images/header/we.jpg",
+    "alt": "We, Nous, Nosotros"
+  },
+  "bodyHtml": "<div align=\"center\" style=\"color: #fff;\"><br><i class=\"fa fa-chevron-down fa-2x\"></i> &nbsp;<em>Choisissez une vidéo dans la playlist suivante ou alors laissez-les s'enchaîner dans l'ordre.</em><br><br>\n</div>\n\n<p>&nbsp;</p>\n\n<p><strong><em>Spectacle réalisé en collaboration avec <a href=\"https://www.facebook.com/pages/Pierre-Rabhi/148621088294\" target=\"_blank\" title=\"Page Facebook de Pierre RABHI\"><strong>Pierre RABHI</strong></a>.</em></strong></p>\n<p>Dans une forme faisant une large part aux musiques électroniques façon SUEÑO EN LA FABRICA, ce spectacle multimédia propose de s’immerger dans la pensée de Pierre RABHI, que nous avons interviewé au cours de l’année 2014.</p>\n<p>Avec une invitée exceptionnelle : Inès PASIC, théâtre Gestuel, tout spécialement venue du PÉROU.</p>\n<p>Avec de nombreux jeunes invités…</p>\n<p>Les vidéos sont tirées des premières représentations de ce spectacle à la TANNERIE à BOURG-EN-BRESSE, le 30 et 31 janvier 2015. Avec le soutien du Conseil Général de l’Ain, de la Région Rhône-Alpes et de la ville de Bourg-en-Bresse.</p>\n<p>«&nbsp;Humanistement&nbsp;» vôtres,<br>\n<em>Alexandra SANTANDER et Didier BOYAT</em></p>\n\n<p><a href=\"https://www.leprogres.fr/ain/2015/02/16/concert-rock-pour-une-terre-detraquee\" target=\"_blank\">Photos et article de presse : Marc DAZY</a></p>\n\n<p>&nbsp;</p>\n\n<h2>SUEÑO EN LA FABRICA c'est :</h2>\n<ul>\n<li>Alexandra SANTANDER : voix, composition, création vidéo, direction artistique et interview de <a href=\"https://www.facebook.com/pages/Pierre-Rabhi/148621088294\" target=\"_blank\" title=\"Page Facebook de Pierre RABHI\"><strong>Pierre RABHI</strong></a></li>\n<li>Didier BOYAT : guitares, composition, montage vidéo, mixage son du spectacle</li>\n<li>Nicolas PELLIER : batterie</li>\n<li>Guillaume GRENARD : basse, trompette</li>\n</ul>\n<br>\n<h2>INVITÉS :</h2>\n<ul>\n<li>Inès PASIC : GAÏA TEATRO-PEROU<br><br></li>\n<li>Audrey NEYTON : voix, sax alto</li>\n<li>Clara Youna SANTANDER : voix</li>\n<li>Lucas DUTHEIL : Djembé</li>\n<li>Arthur CHAUFFARD : Djudjéridu</li>\n<li>Lucas BOYAT SANTANDER : Djudjéridu, voix</li>\n<li>Nathan BILLARD : voix, guitare</li>\n<li>Etienne BEREYZIAT : Guitare</li>\n<li>Inès BOUQUET : flûte</li>\n<li>Gaylor BLOT : sax alto</li>\n<li>Silvio BOYAT : basse</li>\n<li>François DEMARET : voix, textes et co composition des titres 12 13 14</li><br>\n</ul>\n\n<ul>\n<li>Mise en scène : Eric GIRARD</li>\n<li>Éclairages : Claude HUSSON</li>\n<li>Diffusion VIDÉO : Catherine DEMEURE</li><br>\n</ul>\n<br>\n\n\n\n\n\n<br><br>",
+  "videos": [
+    {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/embed/videoseries?list=PLI9gFQBEsZC9a01HGKITCu3H77yyg2aG2&autoplay=1"
+    }
+  ],
+  "gallery": [],
+  "files": [],
+  "externalLinks": [
+    {
+      "href": "https://www.facebook.com/pages/Pierre-Rabhi/148621088294",
+      "label": "Pierre RABHI",
+      "external": true
+    },
+    {
+      "href": "https://www.leprogres.fr/ain/2015/02/16/concert-rock-pour-une-terre-detraquee",
+      "label": "Photos et article de presse : Marc DAZY",
+      "external": true
+    }
+  ],
+  "relatedAlbumSlugs": [],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – All rights reserved<br>Design: <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Photos: Bernard Dutheil, Marc Dazy | Paintings: Belcha<br><br>Additional photos: Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}

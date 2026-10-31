@@ -1,0 +1,91 @@
+{
+  "slug": "",
+  "category": "radio",
+  "locale": "en",
+  "oldFile": "radio-music.php",
+  "oldUrl": "https://www.suenoenlafabrica.com/radio-music.php?lang=en",
+  "title": "Radio Sueño",
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/generique.jpg",
+    "localSrc": "/media/images/header/generique.jpg",
+    "alt": "Radio Sueño"
+  },
+  "bodyHtml": "<div style=\"margin: 0 auto; width: 610px;\">\n\n\t\n\n\t<div class=\"progression-playlist-height responsive-wrapper responsive-audio\" style=\"padding-bottom:250px; margin-left: 260px;\" id=\"audio-player\">\n\n\t\t<p><em>Chargement du lecteur en cours...</em></p>\n\n\t</div><!-- End .responsive-wrapper -->\n\n\n</div>\n\n\n<br>",
+  "videos": [],
+  "gallery": [
+    {
+      "src": "https://www.suenoenlafabrica.com/images/radio/radio.jpg",
+      "localSrc": "/media/images/radio/radio.jpg",
+      "alt": "Album cover"
+    },
+    {
+      "src": "https://www.suenoenlafabrica.com/images/radio/alma.jpg",
+      "localSrc": "/media/images/radio/alma.jpg",
+      "alt": "<b>Sueño en la Fábrica</b><br/><em>Alma</em>"
+    },
+    {
+      "src": "https://www.suenoenlafabrica.com/images/radio/totems.jpg",
+      "localSrc": "/media/images/radio/totems.jpg",
+      "alt": "<b>Totems</b><br/><em>Original Music of the Quidam's Show</em>"
+    },
+    {
+      "src": "https://www.suenoenlafabrica.com/images/radio/mundo.jpg",
+      "localSrc": "/media/images/radio/mundo.jpg",
+      "alt": "<b>Sueño en la Fábrica</b><br/><em>Este Mundo</em>"
+    },
+    {
+      "src": "https://www.suenoenlafabrica.com/images/radio/donde.jpg",
+      "localSrc": "/media/images/radio/donde.jpg",
+      "alt": "<b>Sueño en la Fábrica</b><br/><em>Donde comienza el sur</em>"
+    },
+    {
+      "src": "https://www.suenoenlafabrica.com/images/radio/sphere.jpg",
+      "localSrc": "/media/images/radio/sphere.jpg",
+      "alt": "<b>L'Effet Sphère</b><br/><em>Original Music of the Quidam's Show</em>"
+    },
+    {
+      "src": "https://www.suenoenlafabrica.com/images/radio/herbert.jpg",
+      "localSrc": "/media/images/radio/herbert.jpg",
+      "alt": "<small><b>Herbert's Dream Original Music</b><br><em>A Quidam's Company and Inko Niko's Show</em></small>"
+    },
+    {
+      "src": "https://www.suenoenlafabrica.com/images/radio/sotomayor.jpg",
+      "localSrc": "/media/images/radio/sotomayor.jpg",
+      "alt": "<b>Sueño en la Fábrica</b><br/><em>Ella sotomayor y Didier BOYAT</em>"
+    },
+    {
+      "src": "https://www.suenoenlafabrica.com/images/radio/nimbaya.jpg",
+      "localSrc": "/media/images/radio/nimbaya.jpg",
+      "alt": "<b>Nimbaya/Sueño</b>"
+    },
+    {
+      "src": "https://www.suenoenlafabrica.com/images/radio/estrellas.jpg",
+      "localSrc": "/media/images/radio/estrellas.jpg",
+      "alt": "<b>Retro Latino Trio</b><br/><em>Las Estrellas en el Cielo</em>"
+    },
+    {
+      "src": "https://www.suenoenlafabrica.com/images/radio/amores.jpg",
+      "localSrc": "/media/images/radio/amores.jpg",
+      "alt": "<b>Retro Latino Trio</b><br/><em>Hay Amores</em>"
+    },
+    {
+      "src": "https://www.suenoenlafabrica.com/images/radio/vuelvo.jpg",
+      "localSrc": "/media/images/radio/vuelvo.jpg",
+      "alt": "<b>Retro Latino</b><br/><em>Vuelvo al Sur</em>"
+    },
+    {
+      "src": "https://www.suenoenlafabrica.com/images/radio/ojos.jpg",
+      "localSrc": "/media/images/radio/ojos.jpg",
+      "alt": "<b>Retro Latino</b><br/><em>Son tus ojos los que busco</em>"
+    },
+    {
+      "src": "https://www.suenoenlafabrica.com/images/radio/radio.jpg",
+      "localSrc": "/media/images/radio/radio.jpg",
+      "alt": "<b>Radio Sueño</b><br/><em>Featured titles</em>"
+    }
+  ],
+  "files": [],
+  "externalLinks": [],
+  "relatedAlbumSlugs": [],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – All rights reserved<br>Design: <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Photos: Bernard Dutheil, Marc Dazy | Paintings: Belcha<br><br>Additional photos: Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}

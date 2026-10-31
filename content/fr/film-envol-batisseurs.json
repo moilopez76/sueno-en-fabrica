@@ -1,0 +1,39 @@
+{
+  "slug": "envol-batisseurs",
+  "category": "film",
+  "locale": "fr",
+  "oldFile": "film-envol-batisseurs.php",
+  "oldUrl": "https://www.suenoenlafabrica.com/film-envol-batisseurs.php?lang=fr",
+  "title": "L'envol des bâtisseurs",
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/generique.jpg",
+    "localSrc": "/media/images/header/generique.jpg",
+    "alt": "L'envol des bâtisseurs"
+  },
+  "bodyHtml": "<br><br>\n\n<div class=\"encadre\" style=\"border: none;\">\n\t<h2 style=\"font-size: 1.5em\">Description :</h2>\n\t<p>Bande annonce du film de Alexandra SANTANDER au CFA du bâtiment et travaux publics de Bourg en Bresse. En vue d'un voyage en entreprise espagnole, les apprentis en génie climatique bénéficient d'une initiation à la langue en espagnole par Alexandra SANTANDER, occasion pour elle d'explorer ce centre de formation et de nous en proposer une visite originale.</p>\n\t<p><strong>Images et réalisation :</strong> Alexandra SANTANDER<br><strong>Son, montage et mixage :</strong> Didier Boyat<br><strong>Musique :</strong> Sueño en la Fabrica.</p>\t<p align=\"center\"><a href=\"https://www.youtube.com/watch?v=XHP7YSYRZwE\" target=\"_blank\"></a></p>\n</div>\n\n<br>",
+  "videos": [
+    {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/embed/XHP7YSYRZwE?autoplay=1&ap=%2526fmt%3D22"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "https://www.suenoenlafabrica.com/images/youtube.png",
+      "localSrc": "/media/images/youtube.png",
+      "alt": "",
+      "width": 113,
+      "height": 45
+    }
+  ],
+  "files": [],
+  "externalLinks": [
+    {
+      "href": "https://www.youtube.com/watch?v=XHP7YSYRZwE",
+      "label": "COM/WATCH",
+      "external": true
+    }
+  ],
+  "relatedAlbumSlugs": [],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – Tous droits réservés<br>\n    Réalisation : <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Photos : Bernard Dutheil, Marc Dazy | Peinture : Belcha<br><br>Photos du spectacle « Éloge de l’arbre » : Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}

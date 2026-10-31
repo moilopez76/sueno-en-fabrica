@@ -1,0 +1,43 @@
+{
+  "slug": "le-reve-d-herbert",
+  "category": "show",
+  "locale": "es",
+  "oldFile": "le-reve-d-herbert.php",
+  "oldUrl": "https://www.suenoenlafabrica.com/le-reve-d-herbert.php?lang=es",
+  "title": "El sueño de herbert live",
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/herbert.jpg",
+    "localSrc": "/media/images/header/herbert.jpg",
+    "alt": "El sueño de herbert live"
+  },
+  "bodyHtml": "<p><strong>Este espectáculo que ha recorrido el mundo viene con música original \"en vivo\" realizada especialmente para ello para un momento inolvidable.</strong></p>\n\n<br>\n\n<p><em>Avanzan en la sombra, sobre zancos largas siluetas blancas, drapeadas en telas, que parecen esperar una cita desconocida. Aparecen alrededor de algún árbol, en la esquina de una calle. Con su silencio y sus movimientos lentos como único lenguaje se reúnen con extrañas conversaciones. Se alejan y se acercan hasta invitarnos a seguir detrás de ellas el llamado de la música de <strong>SUEÑO EN LA FABRICA…</strong></em></p>\n\n<p>El sueño del Herbert es una referencia en el teatro de calle. Desde su creación en junio de 1997, más de 400 actuaciones en los cinco continentes, Chalon en la calle (Dentro y fuera), la Copa del Mundo en 1998 y Perth, Sídney y Salt Lake City... Co-producido por <a href=\"https://www.inkonito.com/\" target=\"_blank\">Inko’Nito</a> [Nicolas Martin] y los <a href=\"https://www.quidams.com/\" target=\"_blank\">Quidams Company</a> [Jean -Baptiste Duperray].</p>\n\n<p><strong>Personajes</strong> – Quidams Compañía<br>\n<strong>Alejandra Santander</strong> – Composición musical, Voz e instrumentos adicionales<br>\n<strong>Didier Boyat</strong> – Composición musical, guitarras, teclados y efectos de sonido</p>",
+  "videos": [
+    {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/embed/7jub0sujjv4?autoplay=1"
+    }
+  ],
+  "gallery": [],
+  "files": [],
+  "externalLinks": [
+    {
+      "href": "https://www.inkonito.com/",
+      "label": "Inko’Nito",
+      "external": true
+    },
+    {
+      "href": "https://www.quidams.com/",
+      "label": "Quidams Company",
+      "external": true
+    }
+  ],
+  "relatedAlbumSlugs": [
+    "alma",
+    "mundo",
+    "donde",
+    "herbert",
+    "sotomayor",
+    "inedits"
+  ],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – Todos los derechos reservados<br>Creación: <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Fotos: Bernard Dutheil, Marc Dazy | Pintura: Belcha<br><br>Más fotos: Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "",
+  "category": "home",
+  "locale": "en",
+  "oldFile": "index.php",
+  "oldUrl": "https://www.suenoenlafabrica.com/index.php?lang=en",
+  "title": "About us",
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/generique.jpg",
+    "localSrc": "/media/images/header/generique.jpg",
+    "alt": "About us"
+  },
+  "bodyHtml": "<div class=\"grid\">\n\t<div class=\"column\">\n\t<p>Sueño en la Fábrica began in France in 1992 when Alejandra Santander, Chilean singer and Didier Boyat, French musician and sound engineer first met.</p>\n<p>Together, they compose, arrange and perform music in Sueño en la Fábrica.</p>\n<p>Sueño en la Fábrica is a concept of original sound with strong identity experienced in empty factories and developed on stage with many artists and musicians, but also with scientists.</p>\n<p>From this musical mixture was born extraordinary shows, which mix several disciplines (dance, video, painting, theater, circus) and call up the imaginary through their rich atmospheres.</p>\n<p>Sueño en la Fábrica present his shows in many countries each year and performs original music shows and movies especially for: Compagnie des Quidams.</p>\n\t</div>\n\t\n\t<div class=\"column\">\n\n\t\t<p style=\"text-align: center;\">\n\t\t\t<a href=\"radio-music.php\" title=\"Listen to the album for free on Radio Sueño\">\n\t\t\t\t<strong>New album “Alma”!</strong><br>\n\t\t\t\t\n\t\t\t</a>\n\t\t</p>\n\n\t\t\n\t\t\n\t</div>\n</div>\n\n\n\n\n\n\n\n\n\n\n\n\n<br>\n\n\n\n\n\n<br><br>",
+  "videos": [
+    {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/embed/album/5hr08nQadp08X726KR9Nuk?utm_source=generator&theme=0"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "https://www.suenoenlafabrica.com/images/radio/alma.jpg",
+      "localSrc": "/media/images/radio/alma.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://www.suenoenlafabrica.com/photos/qui_article/didier-boyat.jpg",
+      "localSrc": "/media/photos/qui_article/didier-boyat.jpg",
+      "alt": "",
+      "caption": "Didier Boyat Guitares, claviers, compos et arrangements, conception du son, prises de son et mix",
+      "width": 320,
+      "height": 250
+    },
+    {
+      "src": "https://www.suenoenlafabrica.com/photos/qui_article/alejandra-santander.jpg",
+      "localSrc": "/media/photos/qui_article/alejandra-santander.jpg",
+      "alt": "",
+      "caption": "Alejandra Santander Voix, compos et arrangements, paroles, instruments additionnels, loop machines",
+      "width": 320,
+      "height": 250
+    }
+  ],
+  "files": [],
+  "externalLinks": [],
+  "relatedAlbumSlugs": [],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – All rights reserved<br>Design: <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Photos: Bernard Dutheil, Marc Dazy | Paintings: Belcha<br><br>Additional photos: Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}

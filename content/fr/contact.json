@@ -1,0 +1,36 @@
+{
+  "slug": "",
+  "category": "contact",
+  "locale": "fr",
+  "oldFile": "contact.php",
+  "oldUrl": "https://www.suenoenlafabrica.com/contact.php?lang=fr",
+  "title": "Contact",
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/generique.jpg",
+    "localSrc": "/media/images/header/generique.jpg",
+    "alt": "Contact"
+  },
+  "bodyHtml": "<h2>Sueño en la Fábrica</h2>\n<p><label><strong>Tél. + WhatsApp :</strong></label><br>\n<strong><a href=\"tel:0610290623\">(+33) 6 10 29 06 23</a><br>\n<strong><a href=\"tel:0611968206\">(+33) 6 11 96 82 06</a></strong></strong></p><strong><strong>\n<p><label><strong>E-mail : </strong></label><a href=\"mailto:contact@suenoenlafabrica.com\">contact@suenoenlafabrica.com</a></p>  \n  \n      </strong></strong>",
+  "videos": [],
+  "gallery": [],
+  "files": [],
+  "externalLinks": [
+    {
+      "href": "tel:0610290623",
+      "label": "(+33) 6 10 29 06 23",
+      "external": true
+    },
+    {
+      "href": "tel:0611968206",
+      "label": "(+33) 6 11 96 82 06",
+      "external": true
+    },
+    {
+      "href": "mailto:contact@suenoenlafabrica.com",
+      "label": "contact@suenoenlafabrica.com",
+      "external": true
+    }
+  ],
+  "relatedAlbumSlugs": [],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – Tous droits réservés<br>\n    Réalisation : <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Photos : Bernard Dutheil, Marc Dazy | Peinture : Belcha<br><br>Photos du spectacle « Éloge de l’arbre » : Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}

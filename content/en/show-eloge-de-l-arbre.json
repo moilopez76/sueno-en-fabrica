@@ -1,0 +1,31 @@
+{
+  "slug": "eloge-de-l-arbre",
+  "category": "show",
+  "locale": "en",
+  "oldFile": "eloge-de-l-arbre.php",
+  "oldUrl": "https://www.suenoenlafabrica.com/eloge-de-l-arbre.php?lang=en",
+  "title": "Praise of the tree",
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/arbre.jpg",
+    "localSrc": "/media/images/header/arbre.jpg",
+    "alt": "Praise of the tree"
+  },
+  "bodyHtml": "<h2>Show - Conference</h2>\n\n<!-- <iframe src=\"https://player.vimeo.com/video/36315004?title=0&amp;byline=0&amp;portrait=0&amp;color=2bb800&amp;autoplay=1\" width=\"697\" height=\"500\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> -->\n\n\n\n<br>\n<br>\n\n\n\n<p><strong>Francis Hallé</strong>, botanist, is globally recognized as one of the greatest current specialists primary tropical forests.</p><p>He is the director of the project \"Le radeau des cimes\" an exciting human and scientific adventure. Floating on the green sea of the canopy, team raft Treetop explores, investigates and discovers the key elements for the future of biology.</p><p>Today we have the privilege of working with this renowned scientist on a new creation: <strong>PRAISE OF THE TREE</strong>, which first performance took place July 15, 2011 in Ain, in the Festival <em>Les Temps Chauds</em>.</p><p>A triptych of three video screens gives the beauty of the dream images, melodious mixed music and rhythmic invites us to travel, a narrator imbues us poetry, a botanist and biologist feed us on their conversation.</p><p>The <strong>Gongxeka Brothers</strong> are our South African guests. They play marimbas, dancing and singing in the musical colors of Sueño en la Fabrica.</p><p>This unusual show by its form and content offers the public to inform, amaze and educate treasures contained within the trees, these living beings that are so unknown.</p><p>Accessible to all, musical, visual and poetic.</p>\n<p><em>\"I firmly believe that the standard is equatorial and in that way, this is where we will find the maximum forms of life. Biodiversity is greatest at the equator, and it is not just botany, it is the whole of life. \"</em></p><p><em>\"The trees of Europe are like distant and muffled echoes of the great orchestra playing at the equator.\"</em></p>\n<p>Francis Hallé</p>",
+  "videos": [
+    {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/embed/8yyuS2Ox52c?autoplay=1"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "https://www.suenoenlafabrica.com/photos/arbre_article/halle.jpg",
+      "localSrc": "/media/photos/arbre_article/halle.jpg",
+      "alt": "Francis Hallé"
+    }
+  ],
+  "files": [],
+  "externalLinks": [],
+  "relatedAlbumSlugs": [],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – All rights reserved<br>Design: <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Photos: Bernard Dutheil, Marc Dazy | Paintings: Belcha<br><br>Additional photos: Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}

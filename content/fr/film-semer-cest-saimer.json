@@ -1,0 +1,39 @@
+{
+  "slug": "semer-cest-saimer",
+  "category": "film",
+  "locale": "fr",
+  "oldFile": "film-semer-cest-saimer.php",
+  "oldUrl": "https://www.suenoenlafabrica.com/film-semer-cest-saimer.php?lang=fr",
+  "title": "Semer c'est s'aimer",
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/generique.jpg",
+    "localSrc": "/media/images/header/generique.jpg",
+    "alt": "Semer c'est s'aimer"
+  },
+  "bodyHtml": "<br><br>\n\n<div class=\"encadre\" style=\"border: none;\">\n\t<h2 style=\"font-size: 1.5em\">Description :</h2>\n\t<p>Film commandé en 2014 par le Conseil Général du Jura à l'occasion du colloque de l'O.D.A.S. (Observatoire national de l'Action Sociale décentralisée) à propos des \"Jardins partagés\" dans le Jura.</p>\n  <p><strong>Images et réalisation :</strong> Alexandra SANTANDER<br><strong>Son, montage et mixage :</strong> Didier Boyat<br><strong>Musique :</strong> Sueño en la Fabrica.</p>\t<p align=\"center\"><a href=\"https://www.youtube.com/watch?v=EY_eETTG4-4\" target=\"_blank\"></a></p>\n</div>\n\n<br>",
+  "videos": [
+    {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/embed/EY_eETTG4-4?autoplay=1&ap=%2526fmt%3D22"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "https://www.suenoenlafabrica.com/images/youtube.png",
+      "localSrc": "/media/images/youtube.png",
+      "alt": "",
+      "width": 113,
+      "height": 45
+    }
+  ],
+  "files": [],
+  "externalLinks": [
+    {
+      "href": "https://www.youtube.com/watch?v=EY_eETTG4-4",
+      "label": "COM/WATCH",
+      "external": true
+    }
+  ],
+  "relatedAlbumSlugs": [],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – Tous droits réservés<br>\n    Réalisation : <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Photos : Bernard Dutheil, Marc Dazy | Peinture : Belcha<br><br>Photos du spectacle « Éloge de l’arbre » : Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}

@@ -1,0 +1,128 @@
+{
+  "locale": "en",
+  "logo": {
+    "src": "https://www.suenoenlafabrica.com/images/logo.png",
+    "localSrc": "/media/images/logo.png",
+    "alt": "Sueño en la Fabrica"
+  },
+  "shows": [
+    {
+      "slug": "we-nous-nosotros",
+      "title": "We, Nous, Nosotros"
+    },
+    {
+      "slug": "filaments",
+      "title": "Filaments"
+    },
+    {
+      "slug": "eloge-de-l-arbre",
+      "title": "Praise of the tree"
+    },
+    {
+      "slug": "valparaiso-le-cap",
+      "title": "Valparaiso Le Cap"
+    },
+    {
+      "slug": "concert-sueno-en-la-fabrica",
+      "title": "Sueño en la Fábrica in concert"
+    },
+    {
+      "slug": "harmonie-des-spheres",
+      "title": "Harmony of the spheres"
+    },
+    {
+      "slug": "le-reve-d-herbert",
+      "title": "Live Herbert's dream"
+    },
+    {
+      "slug": "retro-latino-trio",
+      "title": "Retro Latino Trio"
+    },
+    {
+      "slug": "nimbaya",
+      "title": "Nimbaya/Sueño"
+    },
+    {
+      "slug": "tissages",
+      "title": "Tissages"
+    }
+  ],
+  "films": [
+    {
+      "slug": "etincelles",
+      "title": "Sparks"
+    },
+    {
+      "slug": "cosmos-emaux",
+      "title": "Cosmos Émaux"
+    },
+    {
+      "slug": "envol-batisseurs",
+      "title": "L'envol des bâtisseurs"
+    },
+    {
+      "slug": "semer-cest-saimer",
+      "title": "Semer c'est s'aimer"
+    },
+    {
+      "slug": "chez-rogelio",
+      "title": "Chez Rogelio"
+    }
+  ],
+  "managedBy": {
+    "label": "Aria Prod",
+    "link": {
+      "href": "https://www.aria-prod.fr/",
+      "label": "Aria Prod",
+      "external": true
+    },
+    "logo": {
+      "src": "https://www.suenoenlafabrica.com/images/logos/logoAria.png",
+      "localSrc": "/media/images/logos/logoAria.png",
+      "alt": "Aria Prod"
+    }
+  },
+  "funders": [
+    {
+      "image": {
+        "src": "https://www.suenoenlafabrica.com/photos/qui_article/conseil-general-ain.gif",
+        "localSrc": "/media/photos/qui_article/conseil-general-ain.gif",
+        "alt": "Le Conseil Général de l'Ain"
+      },
+      "label": "Le Conseil Général de l'Ain"
+    },
+    {
+      "image": {
+        "src": "https://www.suenoenlafabrica.com/photos/qui_article/rhone-alpes.gif",
+        "localSrc": "/media/photos/qui_article/rhone-alpes.gif",
+        "alt": "La Région Rhône-Alpes"
+      },
+      "label": "La Région Rhône-Alpes"
+    },
+    {
+      "image": {
+        "src": "https://www.suenoenlafabrica.com/photos/qui_article/drac.gif",
+        "localSrc": "/media/photos/qui_article/drac.gif",
+        "alt": "La DRAC Rhône-Alpes"
+      },
+      "label": "La DRAC Rhône-Alpes"
+    },
+    {
+      "image": {
+        "src": "https://www.suenoenlafabrica.com/photos/qui_article/bourg-en-bresse.gif",
+        "localSrc": "/media/photos/qui_article/bourg-en-bresse.gif",
+        "alt": "La Ville de Bourg-en-Bresse"
+      },
+      "label": "La Ville de Bourg-en-Bresse"
+    },
+    {
+      "image": {
+        "src": "https://www.suenoenlafabrica.com/photos/qui_article/spedidam.gif",
+        "localSrc": "/media/photos/qui_article/spedidam.gif",
+        "alt": "La SPEDIDAM"
+      },
+      "label": "La SPEDIDAM"
+    }
+  ],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – All rights reserved<br>Design: <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Photos: Bernard Dutheil, Marc Dazy | Paintings: Belcha<br><br>Additional photos: Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "we-nous-nosotros",
+  "category": "show",
+  "locale": "es",
+  "oldFile": "we-nous-nosotros.php",
+  "oldUrl": "https://www.suenoenlafabrica.com/we-nous-nosotros.php?lang=es",
+  "title": "We, Nous, Nosotros",
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/we.jpg",
+    "localSrc": "/media/images/header/we.jpg",
+    "alt": "We, Nous, Nosotros"
+  },
+  "bodyHtml": "<div align=\"center\" style=\"color: #fff;\"><br><i class=\"fa fa-chevron-down fa-2x\"></i> &nbsp;<em>Elija un video en la lista siguiente o bien déjelos circular en el orden propuesto.</em><br><br>\n</div>\n\n<p>&nbsp;</p>\n\n<p><strong><em>Espectáculo realizado en colaboración con <a href=\"https://www.facebook.com/pages/Pierre-Rabhi/148621088294\" target=\"_blank\" title=\"Page Facebook de Pierre RABHI\"><strong>Pierre RABHI</strong></a>, humanista, escritor, pionero de la agro-ecología.</em></strong></p>\n<p>En una forma que le da mucho espacio a la música electrónica, con la identidad de Sueño en la Fábrica, este espectáculo multimedia ofrece sumergirse en el pensamiento de Pierre Rabhi entrevistado por Alejandra Santander y Didier Boyat en el 2104.</p>\n<p>Con una invitada excepcional venida de Perú, Inés PASIC, especialista del teatro de cuerpo, internacionalmente conocida y varios jóvenes invitados como intérpretes.</p>\n<p>Los videos aquí presentes vienes de tomas de las primeras representaciones que huboen la “Tannerie” de Bourg en Bresse los días 30 y 31 de Enero delante de más de 700 adolecentes y un público adulto de unas 400 personas.</p>\n<p>Esta creación ha recibido el apoyo de la Régión Rhône-Alpes, “Le Département de l’Ain” y la Municipalidad de Bourg en Bresse.</p>\n<p>Las fotos son principalmente de <a href=\"https://www.leprogres.fr/ain/2015/02/16/concert-rock-pour-une-terre-detraquee\" target=\"_blank\">Marc DAZY</a>, perdiodista.</p>\n\n<p>Humanamente vuestros,<br>\n<em>Alexandra SANTANDER y Didier BOYAT</em></p>\n\n<p>&nbsp;</p>\n\n<h2>SUEÑO EN LA FABRICA es:</h2>\n<ul>\n<li>Alejandra SANTANDER: voz, composición musical, dirección artística, creación de videos, entrevistas de <a href=\"https://www.facebook.com/pages/Pierre-Rabhi/148621088294\" target=\"_blank\" title=\"Page Facebook de Pierre RABHI\"><strong>Pierre RABHI</strong></a></li>\n<li>Didier BOYAT: guitarras, teclados, composición musical, mezcla de sonido, grabación</li>\n<li>Nicolas PELLIER: batería</li>\n<li>Guillaume GRENARD: trompeta y bajo</li>\n</ul>\n<br>\n<h2>INVITADOS:</h2>\n<ul>\n<li>Inès PASIC: GAÏA TEATRO-PERU<br><br></li>\n<li>Audrey NEYTON: coros y saxófono</li>\n<li>Clara Youna SANTANDER: coros</li>\n<li>Lucas DUTHEIL: djembé</li>\n<li>Arthur CHAUFFARD: djudjéridu</li>\n<li>Lucas BOYAT SANTANDER: voz y djudjéridu</li>\n<li>Nathan BILLARD: voz y guitarra</li>\n<li>Etienne BEREYZIAT: guitarra</li>\n<li>Inès BOUQUET: flauta</li>\n<li>Gaylor BLOT: sax alto</li>\n<li>Silvio BOYAT: bajo</li>\n<li>François DEMARET: voz, texto y participación a la composición musical en los temas 12, 13 y 14.</li><br>\n</ul>\n\n<ul>\n<li>Mise en scène : Eric GIRARD</li>\n<li>Éclairages : Claude HUSSON</li>\n<li>Diffusion VIDÉO : Catherine DEMEURE</li><br>\n</ul>\n<br>\n\n\n\n\n\n<br><br>",
+  "videos": [
+    {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/embed/videoseries?list=PLI9gFQBEsZC98rI8qyPTEvDhutroQEW0w&autoplay=1"
+    }
+  ],
+  "gallery": [],
+  "files": [],
+  "externalLinks": [
+    {
+      "href": "https://www.facebook.com/pages/Pierre-Rabhi/148621088294",
+      "label": "Pierre RABHI",
+      "external": true
+    },
+    {
+      "href": "https://www.leprogres.fr/ain/2015/02/16/concert-rock-pour-une-terre-detraquee",
+      "label": "Marc DAZY",
+      "external": true
+    }
+  ],
+  "relatedAlbumSlugs": [],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – Todos los derechos reservados<br>Creación: <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Fotos: Bernard Dutheil, Marc Dazy | Pintura: Belcha<br><br>Más fotos: Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}

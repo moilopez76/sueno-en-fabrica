@@ -1,0 +1,47 @@
+{
+  "slug": "",
+  "category": "home",
+  "locale": "fr",
+  "oldFile": "index.php",
+  "oldUrl": "https://www.suenoenlafabrica.com/index.php?lang=fr",
+  "title": "Présentation",
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/generique.jpg",
+    "localSrc": "/media/images/header/generique.jpg",
+    "alt": "Présentation"
+  },
+  "bodyHtml": "<div class=\"grid\">\n\t<div class=\"column\">\n\tSueño en la Fábrica a été créé en France en 1992 par la rencontre d’Alejandra Santander chanteuse d’origine chilienne et Didier Boyat, musicien ingénieur du son d’origine française. Ensemble, ils composent, arrangent et réalisent la musique de Sueño en la Fábrica.<br><br>\nSueño en la Fábrica c’est un concept sonore original de forte identité expérimenté dans les friches industrielles puis développé sur scène avec de nombreux artistes et musiciens, mais également avec des scientifiques.<br><br>\nDe cette musique métissée et populaire naissent spectacles inclassables mêlant différentes disciplines (danse, projection vidéo, peinture, théâtre, cirque) qui appellent l’imaginaire par leurs riches atmosphères.<br><br>\nSueño en la Fábrica présente ses spectacles dans de nombreux pays chaque année et réalise des musiques originales de spectacles et de films notamment pour la Compagnie des QUIDAMS.<p></p>\n\t</div>\n\t\n\t<div class=\"column\">\n\n\t\t<p style=\"text-align: center;\">\n\t\t\t<a href=\"radio-music.php\" title=\"Écoutez gratuitement l’album sur Radio Sueño\">\n\t\t\t\t<strong>Nouvel album Alma !</strong><br>\n\t\t\t\t\n\t\t\t</a>\n\t\t</p>\n\n\t\t\n\t\t\n\t</div>\n</div>\n\n\n\n\n\n\n\n\n\n\n\n\n<br>\n\n\n\n\n\n<br><br>",
+  "videos": [
+    {
+      "provider": "spotify",
+      "url": "https://open.spotify.com/embed/album/5hr08nQadp08X726KR9Nuk?utm_source=generator&theme=0"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "https://www.suenoenlafabrica.com/images/radio/alma.jpg",
+      "localSrc": "/media/images/radio/alma.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://www.suenoenlafabrica.com/photos/qui_article/didier-boyat.jpg",
+      "localSrc": "/media/photos/qui_article/didier-boyat.jpg",
+      "alt": "",
+      "caption": "Didier Boyat Guitares, claviers, compos et arrangements, conception du son, prises de son et mix",
+      "width": 320,
+      "height": 250
+    },
+    {
+      "src": "https://www.suenoenlafabrica.com/photos/qui_article/alejandra-santander.jpg",
+      "localSrc": "/media/photos/qui_article/alejandra-santander.jpg",
+      "alt": "",
+      "caption": "Alejandra Santander Voix, compos et arrangements, paroles, instruments additionnels, loop machines",
+      "width": 320,
+      "height": 250
+    }
+  ],
+  "files": [],
+  "externalLinks": [],
+  "relatedAlbumSlugs": [],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – Tous droits réservés<br>\n    Réalisation : <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Photos : Bernard Dutheil, Marc Dazy | Peinture : Belcha<br><br>Photos du spectacle « Éloge de l’arbre » : Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}

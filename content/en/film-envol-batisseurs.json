@@ -1,0 +1,39 @@
+{
+  "slug": "envol-batisseurs",
+  "category": "film",
+  "locale": "en",
+  "oldFile": "film-envol-batisseurs.php",
+  "oldUrl": "https://www.suenoenlafabrica.com/film-envol-batisseurs.php?lang=en",
+  "title": "L'envol des bâtisseurs",
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/generique.jpg",
+    "localSrc": "/media/images/header/generique.jpg",
+    "alt": "L'envol des bâtisseurs"
+  },
+  "bodyHtml": "<br><br>\n\n<div class=\"encadre\" style=\"border: none;\">\n\t<h2 style=\"font-size: 1.5em\">Description:</h2>\n\t<p>Movie trailer of Alexandra SANTANDER CFA building and public works at Bourg en Bresse. For a trip to a Spanish company, apprentices in HVAC receive an introduction to the Spanish language by Alexandra SANTANDER, opportunity for her to explore this training center and to propose an original visit.</p>\n\t<p><strong>Images and production:</strong> Alexandra SANTANDER<br><strong>Sound, editing and mixing:</strong> Didier Boyat<br><strong>Music:</strong> Sueño en la Fabrica.</p>\t<p align=\"center\"><a href=\"https://www.youtube.com/watch?v=XHP7YSYRZwE\" target=\"_blank\"></a></p>\n</div>\n\n<br>",
+  "videos": [
+    {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/embed/XHP7YSYRZwE?autoplay=1&ap=%2526fmt%3D22"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "https://www.suenoenlafabrica.com/images/youtube.png",
+      "localSrc": "/media/images/youtube.png",
+      "alt": "",
+      "width": 113,
+      "height": 45
+    }
+  ],
+  "files": [],
+  "externalLinks": [
+    {
+      "href": "https://www.youtube.com/watch?v=XHP7YSYRZwE",
+      "label": "COM/WATCH",
+      "external": true
+    }
+  ],
+  "relatedAlbumSlugs": [],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – All rights reserved<br>Design: <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Photos: Bernard Dutheil, Marc Dazy | Paintings: Belcha<br><br>Additional photos: Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}

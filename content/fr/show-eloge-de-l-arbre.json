@@ -1,0 +1,31 @@
+{
+  "slug": "eloge-de-l-arbre",
+  "category": "show",
+  "locale": "fr",
+  "oldFile": "eloge-de-l-arbre.php",
+  "oldUrl": "https://www.suenoenlafabrica.com/eloge-de-l-arbre.php?lang=fr",
+  "title": "Éloge de l'arbre",
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/arbre.jpg",
+    "localSrc": "/media/images/header/arbre.jpg",
+    "alt": "Éloge de l'arbre"
+  },
+  "bodyHtml": "<h2>Spectacle - Conférence</h2>\n\n<!-- <iframe src=\"https://player.vimeo.com/video/36315004?title=0&amp;byline=0&amp;portrait=0&amp;color=2bb800&amp;autoplay=1\" width=\"697\" height=\"500\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> -->\n\n\n\n<br>\n<br>\n\n\n\n<p><strong>Francis Hallé</strong>, botaniste, est mondialement reconnu comme l’un des plus grands spécialistes actuel des forêts tropicales primaires.</p><p>Il est le directeur du projet « Le radeau des Cimes » : une passionante aventure humaine et scientifique. Flottant sur l’océan vert de la canopée, l’équipe du radeau des Cimes explore, étudie et découvre des éléments déterminants pour l’avenir de la biologie.</p><p>Aujourd’hui, nous avons le privilège de travailler avec cet éminent scientifique sur une nouvelle création : <strong>ELOGE DE L’ARBRE</strong>, dont la première représentation a eu lieu le 15 juillet 2011 dans l’Ain, dans le cadre du <em>Festival Les Temps Chauds</em>.</p><p>Un triptyque sur 3 écrans vidéos donne à rêver par la beauté des images, une musique métissée, mélodieuse et rythmée nous invite au voyage, un narrateur nous imprègne de poésie, un botaniste et un biologiste nous nourrissent de leur conversation.</p><p>Les <strong>Gongxeka Brothers</strong> sont nos invités d’Afrique du Sud. Ils jouent des marimbas, dansent et chantent sur les couleurs musicales de <strong>Sueño en la Fabrica</strong>.</p><p>Ce spectacle inhabituel de par sa forme et son contenu propose au public d’informer, d’étonner et de sensibiliser aux trésors que recèlent les arbres, ces êtres vivants si mal connus.</p><p>Un spectacle accessible à tous, musical, visuel et poétique.</p>\n\n<p><em>« J’ai la ferme conviction que la norme est équatoriale et que par conséquant,  c’est là qu’on va trouver le maximum de forme de vie. La diversité biologique est maximale à l’équateur, et c’est pas seulement la botanique, c’est l’ensemble de la vie ».</em></p>\n<p><em>« Les arbres d’Europe sont comme des échos lointains et assourdis du formidable orchestre qui joue sou l’équateur ».</em></p>\n<p>Francis Hallé</p>",
+  "videos": [
+    {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/embed/JsIQZtEO6Qk?autoplay=1"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "https://www.suenoenlafabrica.com/photos/arbre_article/halle.jpg",
+      "localSrc": "/media/photos/arbre_article/halle.jpg",
+      "alt": "Francis Hallé"
+    }
+  ],
+  "files": [],
+  "externalLinks": [],
+  "relatedAlbumSlugs": [],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – Tous droits réservés<br>\n    Réalisation : <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Photos : Bernard Dutheil, Marc Dazy | Peinture : Belcha<br><br>Photos du spectacle « Éloge de l’arbre » : Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}

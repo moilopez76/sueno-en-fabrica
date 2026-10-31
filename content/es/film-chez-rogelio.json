@@ -1,0 +1,39 @@
+{
+  "slug": "chez-rogelio",
+  "category": "film",
+  "locale": "es",
+  "oldFile": "film-chez-rogelio.php",
+  "oldUrl": "https://www.suenoenlafabrica.com/film-chez-rogelio.php?lang=es",
+  "title": "En casa de Rogelio",
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/generique.jpg",
+    "localSrc": "/media/images/header/generique.jpg",
+    "alt": "En casa de Rogelio"
+  },
+  "bodyHtml": "<br><br>\n<div class=\"encadre\" style=\"border: none;\">\n\t<h2 style=\"font-size: 1.5em\">Descripción:</h2>\n\t<p>Interview de ROGELIO CONCEPCION HERREDIA de CUBA par Alexandra Santander de SUEÑO EN LA FABRICA.</p>\t<p align=\"center\"><a href=\"https://www.youtube.com/watch?v=IyAFFYEN-Bc\" target=\"_blank\"></a></p>\n</div>",
+  "videos": [
+    {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/embed/IyAFFYEN-Bc?autoplay=1&ap=%2526fmt%3D22"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "https://www.suenoenlafabrica.com/images/youtube.png",
+      "localSrc": "/media/images/youtube.png",
+      "alt": "",
+      "width": 113,
+      "height": 45
+    }
+  ],
+  "files": [],
+  "externalLinks": [
+    {
+      "href": "https://www.youtube.com/watch?v=IyAFFYEN-Bc",
+      "label": "COM/WATCH",
+      "external": true
+    }
+  ],
+  "relatedAlbumSlugs": [],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – Todos los derechos reservados<br>Creación: <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Fotos: Bernard Dutheil, Marc Dazy | Pintura: Belcha<br><br>Más fotos: Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}

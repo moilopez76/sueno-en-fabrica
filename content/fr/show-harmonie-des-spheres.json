@@ -1,0 +1,35 @@
+{
+  "slug": "harmonie-des-spheres",
+  "category": "show",
+  "locale": "fr",
+  "oldFile": "harmonie-des-spheres.php",
+  "oldUrl": "https://www.suenoenlafabrica.com/harmonie-des-spheres.php?lang=fr",
+  "title": "L'harmonie des sphères",
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/spheres.jpg",
+    "localSrc": "/media/images/header/spheres.jpg",
+    "alt": "L'harmonie des sphères"
+  },
+  "bodyHtml": "<h2>CONCERT_SPECTACLE</h2>\n\n<p align=\"center\"></p>\n\n\n<h2>Concert spectacle</h2>\n<p align=\"center\"></p>\n\n\n<p>Inspiré du livre de Dominique Proust «&nbsp;<em>L’Harmonie des sphères</em>&nbsp;» ed.Seuil</p>\n\n<em>\n\t<p>A la fois autonomes et liés, à la manière des planètes d’un<br>\n\tsystème, les artistes voyagent dans le monde des sons et<br>\n\tdes couleurs, imaginent une musique des sphères,<br>\n\tallant du son brut à la chanson.</p>\n\t<p>Cette conférence spectacle, tiré du livre de<br>\n\tDominique Proust, retrace le troublant parallèle historique<br>\n\tqui lie l’astronomie et la musique.</p>\n</em>\n\n<p>Adaptation texte : Didier Boyat<br>\nMusique : Sueño en la Fabrica</p>\n\n<strong>Avec :</strong>\n<ul>\n\t<li><strong>Alexandra Santander :</strong> voix et instruments additionnels</li>\n\t<li><strong>Véronique Burgos :</strong> chorégraphie</li>\n\t<li><strong>Bernard Dutheil :</strong> projection vidéo</li>\n\t<li><strong>Yves Pignard :</strong> narration</li>\n\t<li><strong>Didier Boyat :</strong> claviers, guitares et diffusion sonore</li>\n\t<li><strong>Jean Luc Peilhon :</strong> clarinette basse, clarinette, harmonicas</li>\n</ul>\n\n<p>Ce spectacle a été joué au CERN-Genève, au Musée des Confluences-Lyon, Festiplanètes, Villefranche sur Saône, Altec Alimentec Bourg en Bresse, Mélodifoliz, Ceyzériat…</p>",
+  "videos": [
+    {
+      "provider": "other",
+      "url": "https://www.dailymotion.com/embed/video/xqirn5?autoplay=1&logo=0"
+    },
+    {
+      "provider": "vimeo",
+      "url": "https://player.vimeo.com/video/20763062?title=0&byline=0&portrait=0&color=ff4800&autoplay=1"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "https://www.suenoenlafabrica.com/photos/spheres_article/proust.jpg",
+      "localSrc": "/media/photos/spheres_article/proust.jpg",
+      "alt": "Dominique Proust"
+    }
+  ],
+  "files": [],
+  "externalLinks": [],
+  "relatedAlbumSlugs": [],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – Tous droits réservés<br>\n    Réalisation : <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Photos : Bernard Dutheil, Marc Dazy | Peinture : Belcha<br><br>Photos du spectacle « Éloge de l’arbre » : Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}

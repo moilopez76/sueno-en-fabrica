@@ -1,0 +1,31 @@
+{
+  "slug": "harmonie-des-spheres",
+  "category": "show",
+  "locale": "en",
+  "oldFile": "harmonie-des-spheres.php",
+  "oldUrl": "https://www.suenoenlafabrica.com/harmonie-des-spheres.php?lang=en",
+  "title": "Harmony of the spheres",
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/spheres.jpg",
+    "localSrc": "/media/images/header/spheres.jpg",
+    "alt": "Harmony of the spheres"
+  },
+  "bodyHtml": "<h2>Conference performance</h2>\n\n<p align=\"center\"></p>\n\n\n\n\n<p>Inspired by the book by Dominique Proust \"The Harmony of the Spheres\" ed.Seuil</p>\n\n<em>\n\t<p>Both autonomous and connected, like the planets of<br>\n\tsystem, the artists travel the world and sounds<br>\n\tcolor, imagine a music of the spheres,<br>\n\tfrom raw sound to the song.</p>\n\t<p>This conference will show, from the book of<br>\n\tDominique Proust, traces the disturbing historical parallel<br>\n\tbinding astronomy and music.</p>\n</em>\n\n<p>Text adaptation: Didier Boyat<br>\nMusic: Sueño en la Fabrica</p>\n\n<strong>With:</strong>\n<ul>\n\t<li><strong>Alexandra Santander:</strong> voice and additional instruments</li>\n\t<li><strong>Véronique Burgos:</strong> choreography</li>\n\t<li><strong>Bernard Dutheil:</strong> video projection</li>\n\t<li><strong>Yves Pignard:</strong> narration</li>\n\t<li><strong>Didier Boyat:</strong> keyboards, guitars and sound distribution</li>\n\t<li><strong>Jean Luc Peilhon:</strong> bass clarinet, clarinet, harmonica</li>\n</ul>\n\n<p>This show was played at CERN, Geneva, Lyon-Confluence Museum, Festiplanètes, Villefranche sur Saone, Altec Alimentec Bourg en Bresse, Mélodifoliz, Ceyzériat...</p>",
+  "videos": [
+    {
+      "provider": "other",
+      "url": "https://www.dailymotion.com/embed/video/xqirn5?autoplay=1&logo=0"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "https://www.suenoenlafabrica.com/photos/spheres_article/proust.jpg",
+      "localSrc": "/media/photos/spheres_article/proust.jpg",
+      "alt": "Dominique Proust"
+    }
+  ],
+  "files": [],
+  "externalLinks": [],
+  "relatedAlbumSlugs": [],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – All rights reserved<br>Design: <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Photos: Bernard Dutheil, Marc Dazy | Paintings: Belcha<br><br>Additional photos: Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}

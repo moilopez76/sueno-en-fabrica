@@ -1,0 +1,35 @@
+{
+  "slug": "valparaiso-le-cap",
+  "category": "show",
+  "locale": "en",
+  "oldFile": "valparaiso-le-cap.php",
+  "oldUrl": "https://www.suenoenlafabrica.com/valparaiso-le-cap.php?lang=en",
+  "title": "Valparaiso Le Cap",
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/valparaiso.jpg",
+    "localSrc": "/media/images/header/valparaiso.jpg",
+    "alt": "Valparaiso Le Cap"
+  },
+  "bodyHtml": "<p><strong>Une histoire de caps et de routes australes, un voyage à la pointe de deux continents.<br>Des musiques de mélanges et des histoires mâtinées de Suds et de couleurs inattendues…</strong></p>\n<p>Depuis 15 ans, le festival  Les temps chauds en Rhône-Alpes, visite les recoins du monde entier et se met en quatre pour accueillir dans l’Ain, les musiques qui racontent à leur façon la Terre et ses peuples. Du local au global, l’arc en ciel des cultures que nous reconnaissons, va au plus près des publics. La diversité culturelle est au cœur de notre  route qui chaque année offre son bouquet de musiques  en mouvement : multicolores, populaires, traditionnelles, métissées et mélangées.</p>\n<p>Valparaiso Le Cap est une initiative du festival qui par ce projet, soutient la création régionale s’inscrivant dans une démarche d’ouverture au monde. L’aventure est celle d’un artiste musicien, né au cœur du bocage bressan, d’une chanteuse chilienne, enfant de l’exil et des migrations obligées et de  deux musiciens  habitant à l’extrême pointe de l’Afrique du Sud.</p>\n<p>En toile de fond : La ville du Cap,  à quelques encablures du Cap de Bonne Espérance, creuset de cultures et de mélanges.  Et puis Valparaiso… Elle  évoque le grand large et la dernière aire de repos des navigateurs du temps de la marine à voile, avant d’affronter les fureurs du Cap Horn. Deux destinations où la croisée des chemins et des routes maritimes ont du voir, au fil des siècles, les migrations les plus \nsurprenantes.</p>\n<p>Les migrations et les passages sont à la pointe de ce concert éphémère et nourricier comme la terre qui le porte. Ce rendez-vous de la petite heure est une invitation à passer le cap des solstices et des frontières. Escale latino-américaine, langues imaginaires et langues du peuple xhosa, son boisé des marimbas et saveurs fruitées des voix et de la guitare font route ensemble vers les couleurs du métissage.</p>\n<p>La forme est simple, épicée et typée. Elle est accessible à tous les publics.<br><br></p>\n<p><strong>Françoise Cartade</strong><br>\n<em>Fabricante de curiosités<br>\nDirectrice artistique du festival Les Temps Chauds</em><br><br></p>\n<p style=\"margin-left: 10px; font-style: italic;\">→ <a href=\"https://www.lestempschauds.org/\" target=\"_blank\" title=\"Site Internet Les Temps Chauds\">Site internet : <strong>Les Temps Chauds</strong></a></p>\n\n<div style=\"text-align: center;\">\t\t\t<br></div>",
+  "videos": [
+    {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/embed/OzTJ2RdNnYs"
+    },
+    {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/embed/YT8yiS8UcAw"
+    }
+  ],
+  "gallery": [],
+  "files": [],
+  "externalLinks": [
+    {
+      "href": "https://www.lestempschauds.org/",
+      "label": "Site internet : Les Temps Chauds",
+      "external": true
+    }
+  ],
+  "relatedAlbumSlugs": [],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – All rights reserved<br>Design: <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Photos: Bernard Dutheil, Marc Dazy | Paintings: Belcha<br><br>Additional photos: Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}

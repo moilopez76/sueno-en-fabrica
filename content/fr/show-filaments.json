@@ -1,0 +1,29 @@
+{
+  "slug": "filaments",
+  "category": "show",
+  "locale": "fr",
+  "oldFile": "filaments.php",
+  "oldUrl": "https://www.suenoenlafabrica.com/filaments.php?lang=fr",
+  "title": "Filaments",
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/filaments.jpg",
+    "localSrc": "/media/images/header/filaments.jpg",
+    "alt": "Filaments"
+  },
+  "bodyHtml": "<br>\n<br>\n\n\n<p>Créé dans le cadre de l’opération \"Re-tissons le territoire\" dans la Communauté de Communes de L’Ouest Rhodanien (C.O.R) ce spectacle basé sur divers collectages (témoignages, images, sons) retrace l’histoire du textile dans la région.</p>\n\n<strong>Avec :</strong>\n<ul>\n  <li><strong>Alejandra SANTANDER :</strong> voix, objets sonores, images des vidéos</li>\n  <li><strong>Didier BOYAT :</strong> guitares, objets sonores, son, mixage</li>\n  <li><strong>Nicolas PELLIER :</strong> batterie, percussions</li>\n  <li><strong>Guillaume GRENARD :</strong> basse, trompette, tuba, percussions</li>\n  <li><strong>Claude HUSSON :</strong> lumières</li>\n  <li><strong>Éric GIRARD :</strong> mise en scène</li>\n</ul>\n\n<br>\n\n\n\n<br>\n<br>\n<br>",
+  "videos": [
+    {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/embed/LRKrrCpuI48?autoplay=1"
+    },
+    {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/embed/_SIEYo5j28M"
+    }
+  ],
+  "gallery": [],
+  "files": [],
+  "externalLinks": [],
+  "relatedAlbumSlugs": [],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – Tous droits réservés<br>\n    Réalisation : <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Photos : Bernard Dutheil, Marc Dazy | Peinture : Belcha<br><br>Photos du spectacle « Éloge de l’arbre » : Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}

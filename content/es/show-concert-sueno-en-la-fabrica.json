@@ -1,0 +1,27 @@
+{
+  "slug": "concert-sueno-en-la-fabrica",
+  "category": "show",
+  "locale": "es",
+  "oldFile": "concert-sueno-en-la-fabrica.php",
+  "oldUrl": "https://www.suenoenlafabrica.com/concert-sueno-en-la-fabrica.php?lang=es",
+  "title": "Sueño en la Fábrica en concierto",
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/sueno.jpg",
+    "localSrc": "/media/images/header/sueno.jpg",
+    "alt": "Sueño en la Fábrica en concierto"
+  },
+  "bodyHtml": "<p>Gran mezcla etnosintética desarrollada al rededor de la voz de Alejandra Santander con sus matíces claásicos, tradicionales y contemporáneos.</p>\n<p>Con sus rítmos, sus melodías y a veces sus atmóferas abstractas, éste grupo sin etiquetas nos hace viajar hacia terrritorios variados, en español, en francés, en italiano o en lenguas imaginarias.<br>\n  Cuando se cruzan las influencias culturales, las historias de cada uno, desde América latina, Europa y aún más allá, resulta una fuerte identidad artística que alcanza al público con emoción y curiosidad.<br>\n  Los conciertos de SUEÑO EN LA FABRICA son a la vez  populares y originales. Sus eventos espectaculares con artistas del mundo del circo, danza o vidéo, sus sonidos e instrumentos fabricados, su <em>worldmusic</em> imaginaria abre la puerta de la imaginación.</p>\n<p>16 años de conciertos y creación, 5 albunes, música para películas y documentales, espectáculos de calle, teatro de objetos sonoros... recorren el mundo.</p>\n\n<p><strong>Alejandra Santander</strong> - Voz e instrumentos adicionales<br>\n    <strong>Didier Boyat</strong> - Guitarras, efectos sonoros y teclados<br>\n    <strong>Alain Garoby</strong> - Percusiones a base de recuperación industrial<br>\n    <strong>Nicolas Pellier</strong> - Batería<br>\n    <strong>Guillaume Grenard</strong> - Bajo y trompeta</p>",
+  "videos": [],
+  "gallery": [],
+  "files": [],
+  "externalLinks": [],
+  "relatedAlbumSlugs": [
+    "alma",
+    "mundo",
+    "donde",
+    "sotomayor",
+    "nimbaya",
+    "inedits"
+  ],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – Todos los derechos reservados<br>Creación: <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Fotos: Bernard Dutheil, Marc Dazy | Pintura: Belcha<br><br>Más fotos: Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}

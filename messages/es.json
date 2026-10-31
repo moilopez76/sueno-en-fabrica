@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "shows": "Espectáculos",
+    "films": "Películas",
+    "radio": "Radio Sueño",
+    "references": "Referencias",
+    "downloads": "Descargas",
+    "contact": "Contacto"
+  },
+  "player": {
+    "nowPlaying": "Reproduciendo",
+    "play": "Reproducir",
+    "pause": "Pausa",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "shuffle": "Aleatorio",
+    "repeat": "Repetir",
+    "volume": "Volumen",
+    "playAlbum": "Reproducir álbum",
+    "playAll": "Reproducir todo",
+    "queue": "Cola",
+    "noTrack": "Ninguna pista seleccionada"
+  },
+  "common": {
+    "readMore": "Leer más",
+    "gallery": "Galería",
+    "video": "Vídeo",
+    "relatedAlbums": "Álbumes relacionados",
+    "externalLink": "Enlace externo",
+    "managedBy": "La actividad de Sueño en la Fábrica está gestionada por",
+    "supportedBy": "Estas estructuras son regularmente apoyadas por",
+    "photoCredits": "Fotos",
+    "painting": "Pintura",
+    "production": "Realización",
+    "allRightsReserved": "Todos los derechos reservados",
+    "downloadFile": "Descargar",
+    "sendMessage": "Enviar",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "messageSent": "Tu mensaje ha sido enviado, ¡gracias!",
+    "messageError": "Ocurrió un error, por favor inténtalo de nuevo.",
+    "skipToContent": "Ir al contenido principal",
+    "albums": "Álbumes",
+    "tracklist": "Lista de canciones"
+  }
+}

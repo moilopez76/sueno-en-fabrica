@@ -1,0 +1,29 @@
+{
+  "slug": "filaments",
+  "category": "show",
+  "locale": "es",
+  "oldFile": "filaments.php",
+  "oldUrl": "https://www.suenoenlafabrica.com/filaments.php?lang=es",
+  "title": "Filaments",
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/filaments.jpg",
+    "localSrc": "/media/images/header/filaments.jpg",
+    "alt": "Filaments"
+  },
+  "bodyHtml": "<br>\n<br>\n\n\n<p>Creado en el cuadro del proyecto \"Re-tissons le territoire\" de la Comunidad de municipios de « L’Ouest Rhodanien (C.O.R) »-Francia, éste espectáculo multimedia está basado en testimonios, imágenes y sonidos recogidos en la región que hacen referencia a la historia textil con una mirada hacia el futuro.</p>\n<p>El resultado de ésta creación integra las voces de niños cantando el ritmo de las máquinas (durante talleres de expresión artística dados por Alejandra y Didier), testimonios de la gente sobre su pasado laboral en el sector del textil, imágenes grabadas en talleres de artesanos en vía de extinción, patrimonio cultural e histórico francés de la zona.</p>\n\n<strong>Con :</strong>\n<ul>\n  <li><strong>Alejandra SANTANDER :</strong> voz, objetos de sonido, imágenes videos y creación</li>\n  <li><strong>Didier BOYAT :</strong> guitarras, objetos de sonido, sonido, mezcla y creación</li>\n  <li><strong>Nicolas PELLIER :</strong> batería, percusión</li>\n  <li><strong>Guillaume GRENARD :</strong> bajo, trompeta, tuba, percusión</li>\n  <li><strong>Claude HUSSON :</strong> luces</li>\n  <li><strong>Éric GIRARD :</strong> escenografía</li>\n</ul>\n\n<br>\n\n\n\n<br>\n<br>\n<br>",
+  "videos": [
+    {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/embed/LRKrrCpuI48?autoplay=1"
+    },
+    {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/embed/_SIEYo5j28M"
+    }
+  ],
+  "gallery": [],
+  "files": [],
+  "externalLinks": [],
+  "relatedAlbumSlugs": [],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – Todos los derechos reservados<br>Creación: <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Fotos: Bernard Dutheil, Marc Dazy | Pintura: Belcha<br><br>Más fotos: Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}

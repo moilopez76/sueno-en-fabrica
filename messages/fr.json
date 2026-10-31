@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "shows": "Spectacles",
+    "films": "Films",
+    "radio": "Radio Sueño",
+    "references": "Références",
+    "downloads": "Téléchargements",
+    "contact": "Contact"
+  },
+  "player": {
+    "nowPlaying": "Lecture en cours",
+    "play": "Lecture",
+    "pause": "Pause",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "shuffle": "Lecture aléatoire",
+    "repeat": "Répéter",
+    "volume": "Volume",
+    "playAlbum": "Lire l'album",
+    "playAll": "Tout lire",
+    "queue": "File d'attente",
+    "noTrack": "Aucun morceau sélectionné"
+  },
+  "common": {
+    "readMore": "En savoir plus",
+    "gallery": "Galerie",
+    "video": "Vidéo",
+    "relatedAlbums": "Albums liés",
+    "externalLink": "Lien externe",
+    "managedBy": "L'activité de Sueño en la Fábrica est gérée par",
+    "supportedBy": "Ces structures sont régulièrement aidées par",
+    "photoCredits": "Photos",
+    "painting": "Peinture",
+    "production": "Réalisation",
+    "allRightsReserved": "Tous droits réservés",
+    "downloadFile": "Télécharger",
+    "sendMessage": "Envoyer",
+    "name": "Nom",
+    "email": "E-mail",
+    "message": "Message",
+    "messageSent": "Votre message a bien été envoyé, merci !",
+    "messageError": "Une erreur est survenue, merci de réessayer.",
+    "skipToContent": "Aller au contenu principal",
+    "albums": "Albums",
+    "tracklist": "Liste des morceaux"
+  }
+}

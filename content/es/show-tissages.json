@@ -1,0 +1,25 @@
+{
+  "slug": "tissages",
+  "category": "show",
+  "locale": "es",
+  "oldFile": "tissages.php",
+  "oldUrl": "https://www.suenoenlafabrica.com/tissages.php?lang=es",
+  "title": "Tissages",
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/tissages.jpg",
+    "localSrc": "/media/images/header/tissages.jpg",
+    "alt": "Tissages"
+  },
+  "bodyHtml": "<p></p>\n<br>\n\n<p>En 1991, Alexandra Santander et Didier Boyat font une expérience marquante dans les locaux de la Schappe de St Rambert en Bugey.</p>\n<p>Le son si particulier de ce lieu et le contexte historique du monde du textile de la région a fortement inspiré le groupe.</p>\n<p>Ce travail conduit à la création de la compagnie <strong>SUEÑO EN LA FABRICA</strong> : <em>Rêve dans l’usine</em>.</p>\n\n<p>Après 19 ans de concerts et spectacles divers en France et à l’étranger, il leur tenait à cœur de revenir aux sources.</p>\n\n<p><strong>TISSAGES</strong> n’est ni un concert, ni un spectacle de danse, ni un film documentaire, c’est un peu de tout cela à la fois : une proposition artistique à travers laquelle se croisent différentes formes d’expression. Ce spectacle est le résultat de la rencontre des artistes de Sueño en la Fábrica avec Véronique Burgos, danseuse et Bernard Dutheil, vidéaste.</p>\n\n<p><strong>TISSAGES</strong> a été réalisé à partir d’images, de sons  et d’interviews de personnes ayant travaillé et vécu à Saint Rambert à l’époque où tout existait par rapport à l’usine de la Schappe.</p>\n\n<p>Les premières représentations de ce spectacle ont eu lieu en septembre 2009 à Saint Rambert en Bugey.<br>Aujourd’hui, ce spectacle s’adapte à d’autres lieux, d’autres histoires concernant la mémoire industrielle.</p>\n\n<strong>Avec :</strong>\n<ul>\n\t<li><strong>Alexandra Santander :</strong> auteur, compositeur, interprète</li>\n\t<li><strong>Véronique Burgos :</strong> danseuse, chorégraphe</li>\n\t<li><strong>Valérie Dubourg :</strong> trapèziste </li>\n\t<li><strong>Didier Boyat :</strong> compositeur, interprète, ingénieur du son</li>\n\t<li><strong>Bernard Dutheil :</strong> vidéaste, photographe</li>\n\t<li><strong>Jean Delafosse :</strong> sculpteur sur soie</li>\n</ul>\n\n<p><strong>Partenaires :</strong>\nMairie de St Rambert, Centre culturel de l’Albarine, Conseil Général de l’Ain, Atelier de Soie, Fonds des Soieries de Jujurieux, ADDIM de l’Ain, Théâtre Artphonème.</p>",
+  "videos": [
+    {
+      "provider": "other",
+      "url": "https://www.dailymotion.com/embed/video/xbknar?autoplay=1&logo=0"
+    }
+  ],
+  "gallery": [],
+  "files": [],
+  "externalLinks": [],
+  "relatedAlbumSlugs": [],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – Todos los derechos reservados<br>Creación: <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Fotos: Bernard Dutheil, Marc Dazy | Pintura: Belcha<br><br>Más fotos: Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}

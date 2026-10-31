@@ -1,0 +1,39 @@
+{
+  "slug": "chez-rogelio",
+  "category": "film",
+  "locale": "fr",
+  "oldFile": "film-chez-rogelio.php",
+  "oldUrl": "https://www.suenoenlafabrica.com/film-chez-rogelio.php?lang=fr",
+  "title": "Chez Rogelio",
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/generique.jpg",
+    "localSrc": "/media/images/header/generique.jpg",
+    "alt": "Chez Rogelio"
+  },
+  "bodyHtml": "<br><br>\n<div class=\"encadre\" style=\"border: none;\">\n\t<h2 style=\"font-size: 1.5em\">Description :</h2>\n\t<p>Interview de ROGELIO CONCEPCION HERREDIA de CUBA par Alexandra Santander de SUEÑO EN LA FABRICA.</p>\t<p align=\"center\"><a href=\"https://www.youtube.com/watch?v=xacJ1YZH6A4\" target=\"_blank\"></a></p>\n</div>",
+  "videos": [
+    {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/embed/xacJ1YZH6A4?autoplay=1&ap=%2526fmt%3D22"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "https://www.suenoenlafabrica.com/images/youtube.png",
+      "localSrc": "/media/images/youtube.png",
+      "alt": "",
+      "width": 113,
+      "height": 45
+    }
+  ],
+  "files": [],
+  "externalLinks": [
+    {
+      "href": "https://www.youtube.com/watch?v=xacJ1YZH6A4",
+      "label": "COM/WATCH",
+      "external": true
+    }
+  ],
+  "relatedAlbumSlugs": [],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – Tous droits réservés<br>\n    Réalisation : <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Photos : Bernard Dutheil, Marc Dazy | Peinture : Belcha<br><br>Photos du spectacle « Éloge de l’arbre » : Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}

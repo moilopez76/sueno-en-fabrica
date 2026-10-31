@@ -1,0 +1,863 @@
+{
+  "defaultAlbum": "alma",
+  "albums": [
+    {
+      "slug": "alma",
+      "title": "Sueño en la Fábrica",
+      "subtitle": "Alma",
+      "cover": {
+        "src": "https://www.suenoenlafabrica.com/images/radio/alma.jpg",
+        "localSrc": "/media/images/radio/alma.jpg",
+        "alt": "Sueño en la Fábrica"
+      },
+      "tracks": [
+        {
+          "file": "01-alma.mp3",
+          "title": "01 - Alma",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/alma/01-alma.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/alma/01-alma.mp3"
+        }
+      ],
+      "random": false
+    },
+    {
+      "slug": "totems",
+      "title": "Totems",
+      "subtitle": "Original Music of the Quidam's Show",
+      "cover": {
+        "src": "https://www.suenoenlafabrica.com/images/radio/totems.jpg",
+        "localSrc": "/media/images/radio/totems.jpg",
+        "alt": "Totems"
+      },
+      "tracks": [
+        {
+          "file": "01 - CHAEL REO.mp3",
+          "title": "01 - Chael Reo",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/totems/01 - CHAEL REO.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/totems/01 - CHAEL REO.mp3"
+        },
+        {
+          "file": "02 - MENE KEYE.mp3",
+          "title": "02 - Mene Keye",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/totems/02 - MENE KEYE.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/totems/02 - MENE KEYE.mp3"
+        },
+        {
+          "file": "03 - PACHAMAMI CAPHIU YO.mp3",
+          "title": "03 - Pachamami Capiu Yo",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/totems/03 - PACHAMAMI CAPHIU YO.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/totems/03 - PACHAMAMI CAPHIU YO.mp3"
+        },
+        {
+          "file": "04 - BANGOM TE.mp3",
+          "title": "04 - Bangom Te",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/totems/04 - BANGOM TE.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/totems/04 - BANGOM TE.mp3"
+        },
+        {
+          "file": "05 - AISHE LONTANA.mp3",
+          "title": "05 - Aishe Lontana",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/totems/05 - AISHE LONTANA.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/totems/05 - AISHE LONTANA.mp3"
+        },
+        {
+          "file": "06 - MORI STAI DUHIL.mp3",
+          "title": "06 - Mori Staï Duhil",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/totems/06 - MORI STAI DUHIL.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/totems/06 - MORI STAI DUHIL.mp3"
+        },
+        {
+          "file": "07 - EYEN PROCHI PART 1.mp3",
+          "title": "07 - Eyen Prochi Pt. 1",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/totems/07 - EYEN PROCHI PART 1.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/totems/07 - EYEN PROCHI PART 1.mp3"
+        },
+        {
+          "file": "08 - EYEN PROCHI PART 2.mp3",
+          "title": "08 - Eyen Prochi Pt. 2",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/totems/08 - EYEN PROCHI PART 2.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/totems/08 - EYEN PROCHI PART 2.mp3"
+        },
+        {
+          "file": "09 - EYEN PROCHI PART 3.mp3",
+          "title": "09 - Eyen Prochi Pt. 3",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/totems/09 - EYEN PROCHI PART 3.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/totems/09 - EYEN PROCHI PART 3.mp3"
+        }
+      ],
+      "random": false
+    },
+    {
+      "slug": "mundo",
+      "title": "Sueño en la Fábrica",
+      "subtitle": "Este Mundo",
+      "cover": {
+        "src": "https://www.suenoenlafabrica.com/images/radio/mundo.jpg",
+        "localSrc": "/media/images/radio/mundo.jpg",
+        "alt": "Sueño en la Fábrica"
+      },
+      "tracks": [
+        {
+          "file": "1-Aykeme.mp3",
+          "title": "01 - Aykeme",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/1-Aykeme.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/1-Aykeme.mp3"
+        },
+        {
+          "file": "2-Este mundo.mp3",
+          "title": "02 - Este mundo",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/2-Este mundo.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/2-Este mundo.mp3"
+        },
+        {
+          "file": "3-Mujercita1.mp3",
+          "title": "03 - Mujercita1",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/3-Mujercita1.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/3-Mujercita1.mp3"
+        },
+        {
+          "file": "4-Mujercita2.mp3",
+          "title": "04 - Mujercita2",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/4-Mujercita2.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/4-Mujercita2.mp3"
+        },
+        {
+          "file": "5-Di me mi bien.mp3",
+          "title": "05 - Di me mi bien",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/5-Di me mi bien.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/5-Di me mi bien.mp3"
+        },
+        {
+          "file": "6-Se fue de casa.mp3",
+          "title": "06 - Se fue de casa",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/6-Se fue de casa.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/6-Se fue de casa.mp3"
+        },
+        {
+          "file": "7-Nambo yake.mp3",
+          "title": "07 - Nambo yake",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/7-Nambo yake.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/7-Nambo yake.mp3"
+        },
+        {
+          "file": "8-Yorga.mp3",
+          "title": "08 - Yorga",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/8-Yorga.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/8-Yorga.mp3"
+        },
+        {
+          "file": "9-Ine.mp3",
+          "title": "09 - Ine",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/9-Ine.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/9-Ine.mp3"
+        },
+        {
+          "file": "10-Rigodons et Invocations.mp3",
+          "title": "10 - Rigodons et Invocations",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/10-Rigodons et Invocations.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/10-Rigodons et Invocations.mp3"
+        },
+        {
+          "file": "11-Temo sombra.mp3",
+          "title": "11 - Temo sombra",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/11-Temo sombra.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/11-Temo sombra.mp3"
+        },
+        {
+          "file": "12-Ama y kern.mp3",
+          "title": "12 - Ama y kern",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/12-Ama y kern.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/12-Ama y kern.mp3"
+        },
+        {
+          "file": "13-Sade emprisonne.mp3",
+          "title": "13 - Sade emprisonne",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/13-Sade emprisonne.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/13-Sade emprisonne.mp3"
+        },
+        {
+          "file": "14-TerminalB.mp3",
+          "title": "14 - TerminalB",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/14-TerminalB.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/14-TerminalB.mp3"
+        },
+        {
+          "file": "15-Soa.mp3",
+          "title": "15 - Soa",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/15-Soa.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/15-Soa.mp3"
+        },
+        {
+          "file": "16-Das tot von Vogel.mp3",
+          "title": "16 - Das tot von Vogel",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/16-Das tot von Vogel.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/16-Das tot von Vogel.mp3"
+        },
+        {
+          "file": "17-el lago de todos los santos.mp3",
+          "title": "17 - El lago de todos los santos",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/17-el lago de todos los santos.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/17-el lago de todos los santos.mp3"
+        },
+        {
+          "file": "18-Uma.mp3",
+          "title": "18 - Uma",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/18-Uma.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/mundo/18-Uma.mp3"
+        }
+      ],
+      "random": false
+    },
+    {
+      "slug": "donde",
+      "title": "Sueño en la Fábrica",
+      "subtitle": "Donde comienza el sur",
+      "cover": {
+        "src": "https://www.suenoenlafabrica.com/images/radio/donde.jpg",
+        "localSrc": "/media/images/radio/donde.jpg",
+        "alt": "Sueño en la Fábrica"
+      },
+      "tracks": [
+        {
+          "file": "1-Te llevaron al mar.mp3",
+          "title": "01 - Te llevaron al mar",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/donde/1-Te llevaron al mar.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/donde/1-Te llevaron al mar.mp3"
+        },
+        {
+          "file": "2-Aurora.mp3",
+          "title": "02 - Aurora",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/donde/2-Aurora.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/donde/2-Aurora.mp3"
+        },
+        {
+          "file": "3-Mulata tambor.mp3",
+          "title": "03 - Mulata tambor",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/donde/3-Mulata tambor.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/donde/3-Mulata tambor.mp3"
+        },
+        {
+          "file": "4-Sigue no mas.mp3",
+          "title": "04 - Sigue no mas",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/donde/4-Sigue no mas.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/donde/4-Sigue no mas.mp3"
+        },
+        {
+          "file": "5-Retour à gorbea.mp3",
+          "title": "05 - Retour à gorbea",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/donde/5-Retour à gorbea.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/donde/5-Retour à gorbea.mp3"
+        },
+        {
+          "file": "6-In gaori.mp3",
+          "title": "06 - In gaori",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/donde/6-In gaori.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/donde/6-In gaori.mp3"
+        },
+        {
+          "file": "7-Mala noticia.mp3",
+          "title": "07 - Mala noticia",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/donde/7-Mala noticia.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/donde/7-Mala noticia.mp3"
+        },
+        {
+          "file": "8-Solelunal.mp3",
+          "title": "08 - Solelunal",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/donde/8-Solelunal.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/donde/8-Solelunal.mp3"
+        },
+        {
+          "file": "9-Estamos volando verdad.mp3",
+          "title": "09 - Estamos volando verdad",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/donde/9-Estamos volando verdad.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/donde/9-Estamos volando verdad.mp3"
+        },
+        {
+          "file": "10-La tristeza.mp3",
+          "title": "10 - La tristeza",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/donde/10-La tristeza.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/donde/10-La tristeza.mp3"
+        },
+        {
+          "file": "11-Donde comienza el sur.mp3",
+          "title": "11 - Donde comienza el sur",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/donde/11-Donde comienza el sur.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/donde/11-Donde comienza el sur.mp3"
+        },
+        {
+          "file": "12-Cuando le hablan de dios.mp3",
+          "title": "12 - Cuando le hablan de dios",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/donde/12-Cuando le hablan de dios.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/donde/12-Cuando le hablan de dios.mp3"
+        },
+        {
+          "file": "13-Sin salida.mp3",
+          "title": "13 - Sin salida",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/donde/13-Sin salida.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/donde/13-Sin salida.mp3"
+        },
+        {
+          "file": "14-En otro universo.mp3",
+          "title": "14 - En otro universo",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/donde/14-En otro universo.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/donde/14-En otro universo.mp3"
+        },
+        {
+          "file": "15-Criscro.mp3",
+          "title": "15 - Criscro",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/donde/15-Criscro.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/donde/15-Criscro.mp3"
+        }
+      ],
+      "random": false
+    },
+    {
+      "slug": "sphere",
+      "title": "L'Effet Sphère",
+      "subtitle": "Original Music of the Quidam's Show",
+      "cover": {
+        "src": "https://www.suenoenlafabrica.com/images/radio/sphere.jpg",
+        "localSrc": "/media/images/radio/sphere.jpg",
+        "alt": "L'Effet Sphère"
+      },
+      "tracks": [
+        {
+          "file": "01-FUTUR GIBUS.mp3",
+          "title": "01 - Futur Gibus",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/sphere/01-FUTUR GIBUS.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/sphere/01-FUTUR GIBUS.mp3"
+        },
+        {
+          "file": "02-JONCTIONS.mp3",
+          "title": "02 - Jonctions",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/sphere/02-JONCTIONS.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/sphere/02-JONCTIONS.mp3"
+        },
+        {
+          "file": "03-SPHERE BALLADE.mp3",
+          "title": "03 - Sphère Ballade",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/sphere/03-SPHERE BALLADE.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/sphere/03-SPHERE BALLADE.mp3"
+        },
+        {
+          "file": "04-SPHERE IMAGES.mp3",
+          "title": "04 - Sphère Images",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/sphere/04-SPHERE IMAGES.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/sphere/04-SPHERE IMAGES.mp3"
+        },
+        {
+          "file": "05-ESTE MUNDO.mp3",
+          "title": "05 - Este Mundo",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/sphere/05-ESTE MUNDO.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/sphere/05-ESTE MUNDO.mp3"
+        }
+      ],
+      "random": false
+    },
+    {
+      "slug": "herbert",
+      "title": "Herbert's Dream Original Music",
+      "subtitle": "A Quidam's Company and Inko Niko's Show",
+      "cover": {
+        "src": "https://www.suenoenlafabrica.com/images/radio/herbert.jpg",
+        "localSrc": "/media/images/radio/herbert.jpg",
+        "alt": "Herbert's Dream Original Music"
+      },
+      "tracks": [
+        {
+          "file": "Plage02.mp3",
+          "title": "02 - Lipodrame",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/herbert/Plage02.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/herbert/Plage02.mp3"
+        },
+        {
+          "file": "Plage03.mp3",
+          "title": "03 - Terminal B",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/herbert/Plage03.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/herbert/Plage03.mp3"
+        },
+        {
+          "file": "Plage04.mp3",
+          "title": "04 - Battue",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/herbert/Plage04.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/herbert/Plage04.mp3"
+        },
+        {
+          "file": "Plage05.mp3",
+          "title": "05 - Criscro V. longue",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/herbert/Plage05.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/herbert/Plage05.mp3"
+        }
+      ],
+      "random": false
+    },
+    {
+      "slug": "sotomayor",
+      "title": "Sueño en la Fábrica",
+      "subtitle": "Ella sotomayor y Didier BOYAT",
+      "cover": {
+        "src": "https://www.suenoenlafabrica.com/images/radio/sotomayor.jpg",
+        "localSrc": "/media/images/radio/sotomayor.jpg",
+        "alt": "Sueño en la Fábrica"
+      },
+      "tracks": [
+        {
+          "file": "1-Huincaona.mp3",
+          "title": "01 - Huincaona",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/sotomayor/1-Huincaona.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/sotomayor/1-Huincaona.mp3"
+        },
+        {
+          "file": "2-Lunita de lejos.mp3",
+          "title": "02 - Lunita de lejos",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/sotomayor/2-Lunita de lejos.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/sotomayor/2-Lunita de lejos.mp3"
+        },
+        {
+          "file": "3-Un Domingo en San Ramberto.mp3",
+          "title": "03 - Un Domingo en San Ramberto",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/sotomayor/3-Un Domingo en San Ramberto.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/sotomayor/3-Un Domingo en San Ramberto.mp3"
+        },
+        {
+          "file": "4-Mariposa.mp3",
+          "title": "04 - Mariposa",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/sotomayor/4-Mariposa.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/sotomayor/4-Mariposa.mp3"
+        },
+        {
+          "file": "5-Sueno en la fabrica.mp3",
+          "title": "05 - Sueno en la fabrica",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/sotomayor/5-Sueno en la fabrica.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/sotomayor/5-Sueno en la fabrica.mp3"
+        },
+        {
+          "file": "07-La reina de la primavera.mp3",
+          "title": "07 - La reina de la primavera",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/sotomayor/07-La reina de la primavera.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/sotomayor/07-La reina de la primavera.mp3"
+        },
+        {
+          "file": "08-La bruja esta en mi cama.mp3",
+          "title": "08 - La bruja esta en mi cama",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/sotomayor/08-La bruja esta en mi cama.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/sotomayor/08-La bruja esta en mi cama.mp3"
+        },
+        {
+          "file": "plage09.mp3",
+          "title": "09 - El Regalon",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/sotomayor/plage09.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/sotomayor/plage09.mp3"
+        },
+        {
+          "file": "plage10.mp3",
+          "title": "10 - En su tiempo",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/sotomayor/plage10.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/sotomayor/plage10.mp3"
+        },
+        {
+          "file": "plage11.mp3",
+          "title": "11 - Hipocanticos",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/sotomayor/plage11.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/sotomayor/plage11.mp3"
+        },
+        {
+          "file": "plage12.mp3",
+          "title": "12 - Cancion de amor",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/sotomayor/plage12.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/sotomayor/plage12.mp3"
+        }
+      ],
+      "random": false
+    },
+    {
+      "slug": "nimbaya",
+      "title": "Concert avec Nimbaya",
+      "cover": {
+        "src": "https://www.suenoenlafabrica.com/images/radio/nimbaya.jpg",
+        "localSrc": "/media/images/radio/nimbaya.jpg",
+        "alt": "Concert avec Nimbaya"
+      },
+      "tracks": [
+        {
+          "file": "Coranore Sempe.mp3",
+          "title": "01 - Coranore Sempe",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/nimbaya/Coranore Sempe.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/nimbaya/Coranore Sempe.mp3"
+        },
+        {
+          "file": "Oyelalale.mp3",
+          "title": "02 - Oyelalale",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/nimbaya/Oyelalale.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/nimbaya/Oyelalale.mp3"
+        },
+        {
+          "file": "De proceso Conakry.mp3",
+          "title": "03 - De proceso Conakry",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/nimbaya/De proceso Conakry.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/nimbaya/De proceso Conakry.mp3"
+        },
+        {
+          "file": "Saemae.mp3",
+          "title": "04 - Saemae",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/nimbaya/Saemae.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/nimbaya/Saemae.mp3"
+        },
+        {
+          "file": "Sinte.mp3",
+          "title": "05 - Sinte",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/nimbaya/Sinte.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/nimbaya/Sinte.mp3"
+        },
+        {
+          "file": "Lunita Conakry.mp3",
+          "title": "06 - Lunita Conakry Version Conakry",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/nimbaya/Lunita Conakry.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/nimbaya/Lunita Conakry.mp3"
+        }
+      ],
+      "random": false
+    },
+    {
+      "slug": "estrellas",
+      "title": "Retro Latino Trio",
+      "subtitle": "Las Estrellas en el Cielo",
+      "cover": {
+        "src": "https://www.suenoenlafabrica.com/images/radio/estrellas.jpg",
+        "localSrc": "/media/images/radio/estrellas.jpg",
+        "alt": "Retro Latino Trio"
+      },
+      "tracks": [
+        {
+          "file": "01 - SIN LA LUNA.mp3",
+          "title": "01 - Sin la Luna",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/estrellas/01 - SIN LA LUNA.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/estrellas/01 - SIN LA LUNA.mp3"
+        },
+        {
+          "file": "02 - HAY AMORES.mp3",
+          "title": "02 - Hay Amores",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/estrellas/02 - HAY AMORES.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/estrellas/02 - HAY AMORES.mp3"
+        },
+        {
+          "file": "03 - ME DUELE EL CORAZON.mp3",
+          "title": "03 - Me Duele el Corazón",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/estrellas/03 - ME DUELE EL CORAZON.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/estrellas/03 - ME DUELE EL CORAZON.mp3"
+        },
+        {
+          "file": "04 - NINO DE MI BARRIO.mp3",
+          "title": "04 - Niño de Mi Barrio",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/estrellas/04 - NINO DE MI BARRIO.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/estrellas/04 - NINO DE MI BARRIO.mp3"
+        },
+        {
+          "file": "05 - GARUA.mp3",
+          "title": "05 - Garua",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/estrellas/05 - GARUA.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/estrellas/05 - GARUA.mp3"
+        },
+        {
+          "file": "06 - LAS ESTRELLAS EN EL CIELO.mp3",
+          "title": "06 - Las Estrellas en el Cielo",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/estrellas/06 - LAS ESTRELLAS EN EL CIELO.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/estrellas/06 - LAS ESTRELLAS EN EL CIELO.mp3"
+        },
+        {
+          "file": "07 - EN EL CLARO DE LA LUNA.mp3",
+          "title": "07 - En el Claro de la Luna",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/estrellas/07 - EN EL CLARO DE LA LUNA.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/estrellas/07 - EN EL CLARO DE LA LUNA.mp3"
+        },
+        {
+          "file": "08 - ODIAME INSTRUMENTAL.mp3",
+          "title": "08 - Odiame Instrumental",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/estrellas/08 - ODIAME INSTRUMENTAL.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/estrellas/08 - ODIAME INSTRUMENTAL.mp3"
+        },
+        {
+          "file": "09 - VUELVO AL SUR.mp3",
+          "title": "09 - Vuelvo al Sur",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/estrellas/09 - VUELVO AL SUR.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/estrellas/09 - VUELVO AL SUR.mp3"
+        },
+        {
+          "file": "10 - LIBERTANGO.mp3",
+          "title": "10 - Libertango",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/estrellas/10 - LIBERTANGO.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/estrellas/10 - LIBERTANGO.mp3"
+        },
+        {
+          "file": "11 - MILONGA TRISTE.mp3",
+          "title": "11 - Milonga Triste",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/estrellas/11 - MILONGA TRISTE.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/estrellas/11 - MILONGA TRISTE.mp3"
+        },
+        {
+          "file": "12 - MOLIENDO CAFE.mp3",
+          "title": "12 - Moliendo Café",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/estrellas/12 - MOLIENDO CAFE.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/estrellas/12 - MOLIENDO CAFE.mp3"
+        },
+        {
+          "file": "13 - VOLVER.mp3",
+          "title": "13 - Volver",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/estrellas/13 - VOLVER.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/estrellas/13 - VOLVER.mp3"
+        },
+        {
+          "file": "14 - LOS EJES DE MI CARRETA.mp3",
+          "title": "14 - Los Ejes de Mi Carreta",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/estrellas/14 - LOS EJES DE MI CARRETA.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/estrellas/14 - LOS EJES DE MI CARRETA.mp3"
+        }
+      ],
+      "random": false
+    },
+    {
+      "slug": "amores",
+      "title": "Retro Latino Trio",
+      "subtitle": "Hay Amores",
+      "cover": {
+        "src": "https://www.suenoenlafabrica.com/images/radio/amores.jpg",
+        "localSrc": "/media/images/radio/amores.jpg",
+        "alt": "Retro Latino Trio"
+      },
+      "tracks": [
+        {
+          "file": "01-Ay Amores.mp3",
+          "title": "01 - Hay Amores",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/amores/01-Ay Amores.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/amores/01-Ay Amores.mp3"
+        },
+        {
+          "file": "02-Me duele el Corazon.mp3",
+          "title": "02 - Me duele el corazon",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/amores/02-Me duele el Corazon.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/amores/02-Me duele el Corazon.mp3"
+        },
+        {
+          "file": "03- sin la luna.mp3",
+          "title": "03 - Sin la luna",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/amores/03- sin la luna.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/amores/03- sin la luna.mp3"
+        },
+        {
+          "file": "04-cumbiamba.mp3",
+          "title": "04 - Cumbiamba",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/amores/04-cumbiamba.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/amores/04-cumbiamba.mp3"
+        },
+        {
+          "file": "05-con toda palabra.mp3",
+          "title": "05 - Con toda palabra",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/amores/05-con toda palabra.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/amores/05-con toda palabra.mp3"
+        }
+      ],
+      "random": false
+    },
+    {
+      "slug": "vuelvo",
+      "title": "Retro Latino",
+      "subtitle": "Vuelvo al Sur",
+      "cover": {
+        "src": "https://www.suenoenlafabrica.com/images/radio/vuelvo.jpg",
+        "localSrc": "/media/images/radio/vuelvo.jpg",
+        "alt": "Retro Latino"
+      },
+      "tracks": [
+        {
+          "file": "01-Los ejes de mi carreta 02- Vuelvo al sur.mp3",
+          "title": "01 - Los ejes de mi carreta / 02 - Vuelvo al sur",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/vuelvo/01-Los ejes de mi carreta 02- Vuelvo al sur.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/vuelvo/01-Los ejes de mi carreta 02- Vuelvo al sur.mp3"
+        },
+        {
+          "file": "03- Me duele El Corazon.mp3",
+          "title": "03 - Me duele El Corazon",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/vuelvo/03- Me duele El Corazon.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/vuelvo/03- Me duele El Corazon.mp3"
+        },
+        {
+          "file": "04- Cumbiamba.mp3",
+          "title": "04 - Cumbiamba",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/vuelvo/04- Cumbiamba.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/vuelvo/04- Cumbiamba.mp3"
+        },
+        {
+          "file": "05-Que nadie sepa mi sufrir.mp3",
+          "title": "05 - Que nadie sepa mi sufrir",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/vuelvo/05-Que nadie sepa mi sufrir.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/vuelvo/05-Que nadie sepa mi sufrir.mp3"
+        },
+        {
+          "file": "06-Bote de vela.mp3",
+          "title": "06 - Bote de vela",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/vuelvo/06-Bote de vela.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/vuelvo/06-Bote de vela.mp3"
+        },
+        {
+          "file": "07-Noche de ronda.mp3",
+          "title": "07 - Noche de ronda",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/vuelvo/07-Noche de ronda.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/vuelvo/07-Noche de ronda.mp3"
+        },
+        {
+          "file": "08-Lucia.mp3",
+          "title": "08 - Lucia",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/vuelvo/08-Lucia.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/vuelvo/08-Lucia.mp3"
+        },
+        {
+          "file": "09-Cumbia del Mole.mp3",
+          "title": "09 - Cumbia del Mole",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/vuelvo/09-Cumbia del Mole.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/vuelvo/09-Cumbia del Mole.mp3"
+        },
+        {
+          "file": "10-Todos los domingos.mp3",
+          "title": "10 - Todos los domingos",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/vuelvo/10-Todos los domingos.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/vuelvo/10-Todos los domingos.mp3"
+        },
+        {
+          "file": "11-Llanto de  cocodrilo.mp3",
+          "title": "11 - Llanto de  cocodrilo",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/vuelvo/11-Llanto de  cocodrilo.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/vuelvo/11-Llanto de  cocodrilo.mp3"
+        }
+      ],
+      "random": false
+    },
+    {
+      "slug": "ojos",
+      "title": "Retro Latino",
+      "subtitle": "Son tus ojos los que busco",
+      "cover": {
+        "src": "https://www.suenoenlafabrica.com/images/radio/ojos.jpg",
+        "localSrc": "/media/images/radio/ojos.jpg",
+        "alt": "Retro Latino"
+      },
+      "tracks": [
+        {
+          "file": "1-Son tus ojos los que Busco.mp3",
+          "title": "01 - Son tus ojos los que Busco",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/ojos/1-Son tus ojos los que Busco.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/ojos/1-Son tus ojos los que Busco.mp3"
+        },
+        {
+          "file": "2-Caballo viejo.mp3",
+          "title": "02 - Caballo viejo",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/ojos/2-Caballo viejo.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/ojos/2-Caballo viejo.mp3"
+        },
+        {
+          "file": "3-Moliendo cafe.mp3",
+          "title": "03 - Moliendo café",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/ojos/3-Moliendo cafe.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/ojos/3-Moliendo cafe.mp3"
+        },
+        {
+          "file": "4-quizas.mp3",
+          "title": "04 - Quizas",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/ojos/4-quizas.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/ojos/4-quizas.mp3"
+        },
+        {
+          "file": "5-Odiame.mp3",
+          "title": "05 - Odiame",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/ojos/5-Odiame.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/ojos/5-Odiame.mp3"
+        },
+        {
+          "file": "6-El carretero.mp3",
+          "title": "06 - El carretero",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/ojos/6-El carretero.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/ojos/6-El carretero.mp3"
+        },
+        {
+          "file": "7-Me rio.mp3",
+          "title": "07 - Me rio",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/ojos/7-Me rio.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/ojos/7-Me rio.mp3"
+        },
+        {
+          "file": "8-A quien.mp3",
+          "title": "08 - A quien",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/ojos/8-A quien.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/ojos/8-A quien.mp3"
+        },
+        {
+          "file": "9-Historia de amor.mp3",
+          "title": "09 - Historia de amor",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/ojos/9-Historia de amor.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/ojos/9-Historia de amor.mp3"
+        },
+        {
+          "file": "10-Te di mi alma.mp3",
+          "title": "10 - Te di mi alma",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/ojos/10-Te di mi alma.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/ojos/10-Te di mi alma.mp3"
+        },
+        {
+          "file": "11-Los maraqueros.mp3",
+          "title": "11 - Los maraqueros",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/ojos/11-Los maraqueros.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/ojos/11-Los maraqueros.mp3"
+        }
+      ],
+      "random": false
+    },
+    {
+      "slug": "inedits",
+      "title": "Radio Sueño",
+      "subtitle": "Sélection",
+      "cover": {
+        "src": "https://www.suenoenlafabrica.com/images/radio/radio.jpg",
+        "localSrc": "/media/images/radio/radio.jpg",
+        "alt": "Radio Sueño"
+      },
+      "tracks": [
+        {
+          "file": "Dalei Sara.mp3",
+          "title": "Dalei Sara",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/inedits/Dalei Sara.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/inedits/Dalei Sara.mp3"
+        },
+        {
+          "file": "Je viens vers toi.mp3",
+          "title": "Je viens vers toi",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/inedits/Je viens vers toi.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/inedits/Je viens vers toi.mp3"
+        },
+        {
+          "file": "Las estrellas.mp3",
+          "title": "Las estrellas",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/inedits/Las estrellas.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/inedits/Las estrellas.mp3"
+        },
+        {
+          "file": "LE MANEGE DE VALS LAC.mp3",
+          "title": "Le manège de Vals Lac",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/inedits/LE MANEGE DE VALS LAC.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/inedits/LE MANEGE DE VALS LAC.mp3"
+        },
+        {
+          "file": "Te Llevaron final Afiltaho.mp3",
+          "title": "Te Llevaron final Afiltaho",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/inedits/Te Llevaron final Afiltaho.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/inedits/Te Llevaron final Afiltaho.mp3"
+        },
+        {
+          "file": "UPA.mp3",
+          "title": "UPA",
+          "audioSrc": "https://www.suenoenlafabrica.com/audio/radio/inedits/UPA.mp3",
+          "localAudioSrc": "https://www.suenoenlafabrica.com/audio/radio/inedits/UPA.mp3"
+        }
+      ],
+      "random": true
+    }
+  ]
+}

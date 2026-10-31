@@ -1,0 +1,27 @@
+{
+  "slug": "concert-sueno-en-la-fabrica",
+  "category": "show",
+  "locale": "en",
+  "oldFile": "concert-sueno-en-la-fabrica.php",
+  "oldUrl": "https://www.suenoenlafabrica.com/concert-sueno-en-la-fabrica.php?lang=en",
+  "title": "Sueño en la Fábrica in concert",
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/sueno.jpg",
+    "localSrc": "/media/images/header/sueno.jpg",
+    "alt": "Sueño en la Fábrica in concert"
+  },
+  "bodyHtml": "<p>A great ethno-synthetic mixture, with classical, traditional and contemporary nuances, developed around the voice of Alejandra Santander.</p>\n<p>With its rhythms, its melodies and its at times more abstract atmosphere, this unclassifiable group takes us on a voyage towards a variety of territories, in Spanish, in French or even in imaginary languages.<br>\nWhen these cultural intersect, each of their histories, from Latin America to Europe and beyond, rebound from a strong artistic identity which fills the public with emotion and curiosity.<br>\nSueño's concerts are both popular and original. Their collaborations on larger events with circus artists, dance or video, their invented sounds and instruments, and their imaginary world-music open all the doors of the imagination.</p>\n<p>16 years of creation and concerts, 5 albums, music for documentary films, street theatre, sonic object theatre... all around the globe.</p>\n\n<p><strong>Alejandra Santander</strong> - Voice and additionnal instruments<br>\n    <strong>Didier Boyat</strong> - Guitars, sound modification and keyboards<br>\n    <strong>Alain Garoby</strong> - Percussions<br>\n    <strong>Nicolas Pellier</strong> - Drums<br>\n    <strong>Guillaume Grenard</strong> - Bass and trumpet</p>",
+  "videos": [],
+  "gallery": [],
+  "files": [],
+  "externalLinks": [],
+  "relatedAlbumSlugs": [
+    "alma",
+    "mundo",
+    "donde",
+    "sotomayor",
+    "nimbaya",
+    "inedits"
+  ],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – All rights reserved<br>Design: <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Photos: Bernard Dutheil, Marc Dazy | Paintings: Belcha<br><br>Additional photos: Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "le-reve-d-herbert",
+  "category": "show",
+  "locale": "en",
+  "oldFile": "le-reve-d-herbert.php",
+  "oldUrl": "https://www.suenoenlafabrica.com/le-reve-d-herbert.php?lang=en",
+  "title": "Live Herbert's dream",
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/herbert.jpg",
+    "localSrc": "/media/images/header/herbert.jpg",
+    "alt": "Live Herbert's dream"
+  },
+  "bodyHtml": "<p><strong>This show, which has toured the world, is being proposed with live music, by the composers of the original soundtrack, for an absolutely unforgettable moment.</strong></p>\n\n<br>\n\n<p><em>They advance in shadow, long white silhouettes on stilts, draped in fabric, seemingly waiting for someone, something. Appearing from around a tree, the corner of the street, equipped with only the language of the silences and slow gestures, they begin strange consultations, approach each other, pull away, and finally invite us to follow them to the call of the music of Sueño En La Fábrica…</em></p>\n\n<p>Le Rêve d’Herbert is a point of reference in the creation of material for street theatre and large events. Since its conception, in June 1997, they have staged more than 400 presentations on five continents, from France’s Châlon In the Street (In &amp; Off) and World Cup of Soccer 1998, through to Perth, Sidney or Salt Lake City… coproduced by <a href=\"https://www.inkonito.com/\" target=\"_blank\">Inko’Nito</a> (Nikola Martin) and la <a href=\"https://www.quidams.com/\" target=\"_blank\">Compagnie des Quidams</a> (Jean-Baptiste Duperray). </p>\n\n<p><strong>Characters</strong> - Compagnie des Quidams<br>\n<strong>Alejandra Santander</strong> - Vocals &amp; Additional Instruments<br>\n<strong>Didier Boyat</strong> - Guitars, Traffic, Sound and Keyboards<br>\n<strong>Alain Garoby</strong> - Percussion<br>\n<strong>Nicolas Pellier</strong> - Drums<br>\n<strong>Guillaume Grenard</strong> - Bass &amp; Trumpet</p>",
+  "videos": [
+    {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/embed/7jub0sujjv4?autoplay=1"
+    }
+  ],
+  "gallery": [],
+  "files": [],
+  "externalLinks": [
+    {
+      "href": "https://www.inkonito.com/",
+      "label": "Inko’Nito",
+      "external": true
+    },
+    {
+      "href": "https://www.quidams.com/",
+      "label": "Compagnie des Quidams",
+      "external": true
+    }
+  ],
+  "relatedAlbumSlugs": [
+    "herbert"
+  ],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – All rights reserved<br>Design: <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Photos: Bernard Dutheil, Marc Dazy | Paintings: Belcha<br><br>Additional photos: Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}

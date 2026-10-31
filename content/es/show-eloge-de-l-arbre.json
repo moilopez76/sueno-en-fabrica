@@ -1,0 +1,31 @@
+{
+  "slug": "eloge-de-l-arbre",
+  "category": "show",
+  "locale": "es",
+  "oldFile": "eloge-de-l-arbre.php",
+  "oldUrl": "https://www.suenoenlafabrica.com/eloge-de-l-arbre.php?lang=es",
+  "title": "Elogio al Arbol",
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/arbre.jpg",
+    "localSrc": "/media/images/header/arbre.jpg",
+    "alt": "Elogio al Arbol"
+  },
+  "bodyHtml": "<h2>Espectáculo - Conferencia</h2>\n\n<!-- <iframe src=\"https://player.vimeo.com/video/36315004?title=0&amp;byline=0&amp;portrait=0&amp;color=2bb800&amp;autoplay=1\" width=\"697\" height=\"500\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> -->\n\n\n\n<br>\n<br>\n\n\n\n<p>A continuación del espectáculo “La armonía de las Esferas” programado en Festiplanètes 2010, tuvimos el honor de entrar en contacto  con el botánico Francis Hallé, reconocido mundialmente como uno de los principales expertos en bosques tropicales primarios.</p><p>Él es el director del proyecto “Le Radeau des Cimes” (La balsa de las cimas): una emocionante aventura humana y científica. Flotando sobre el verde océano de la cima de los árboles, el equipo de la balsa explora, investiga y descubre elementos fundamentales para el futuro de la biología.</p><p>Hoy en día, tenemos el privilegio de trabajar con este destacado científico en una nueva creación: ELOGIO AL ÁRBOL, cuya primera actuación fue el 15 de julio 2011 Bourg-En-Bresse (Francia), en el “Festival des Temps Chauds”, luego se presentó en Marzo de este año en Festiplanètes y la próxima actuación será en magnífico Centro Cultural “L’Esplanade du Lac” en Divonne-les Bains (el 25 de Octubre).</p><p>El trabajo de base se realiza a partir de una  adaptación sobre los textos de Francis Halle: “Éloge de la Plante” Umbral ed., “Plaidoyer pour l’Arbre”, “La Condition Tropicale” ed. Actes Sud, y “le Radeau des Cimes”, ed. JC Lattes.</p><p>El tratamiento poético de este tema tendrá como objetivo informar, sorprender y educar al público acerca de los tesoros por descubrir de estos seres tan mal conocidos.</p><ul><li>Un botánico y un periodista de la ciencia están en conversación, una especie de entrevista en vivo</li><li>Un narrador</li><li>Un videografo artista proyecta imágenes en directo, diagramas y fotografías</li><li>Un experto en luces complementa el trabajo del videografo</li><li>4 músicos interpretan en directo</li></ul><p>Todos interactúan en un ambiente visual y musical.<br>Participan en el escenario de este espectáculo:</p><ul><li>Francisco Halle: botánico</li><li>Dominique Padirac: periodista científico</li><li>Vicente Lajarige: escultor</li><li>Alexandra Santander canto y composición</li><li>Didier Boyat: guitarras, teclados, composición y difusión del sonido</li><li>Nicolás Gongxeka y Nceba Hermanos grupo Gongxeka (Africa del Sur)</li><li>Yves Pignard: narrador</li><li>Bernard Dutheil: fotos, video y proyección</li></ul><p>De este encuentro musical nació el concierto “Valparaiso le Cap”, que también se presentará en Francia en octubre de este año.</p><p>De la colaboración con Francis Hallé nace también una exposición multimedia sobre los bosques tropicales primarios que se presentará por primera vez en el Parque de los Pájaros\n(Parc des Oiseaux) de Villars-les-Dombes el próximo año.</p>",
+  "videos": [
+    {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/embed/JsIQZtEO6Qk?autoplay=1"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "https://www.suenoenlafabrica.com/photos/arbre_article/halle.jpg",
+      "localSrc": "/media/photos/arbre_article/halle.jpg",
+      "alt": "Francis Hallé"
+    }
+  ],
+  "files": [],
+  "externalLinks": [],
+  "relatedAlbumSlugs": [],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – Todos los derechos reservados<br>Creación: <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Fotos: Bernard Dutheil, Marc Dazy | Pintura: Belcha<br><br>Más fotos: Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}

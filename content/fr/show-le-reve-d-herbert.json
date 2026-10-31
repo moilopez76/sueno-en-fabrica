@@ -1,0 +1,38 @@
+{
+  "slug": "le-reve-d-herbert",
+  "category": "show",
+  "locale": "fr",
+  "oldFile": "le-reve-d-herbert.php",
+  "oldUrl": "https://www.suenoenlafabrica.com/le-reve-d-herbert.php?lang=fr",
+  "title": "Le rêve d'Herbert live",
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/herbert.jpg",
+    "localSrc": "/media/images/header/herbert.jpg",
+    "alt": "Le rêve d'Herbert live"
+  },
+  "bodyHtml": "<p><strong>Ce spectacle qui a fait le tour du monde est proposé avec la musique « Live » par les compositeurs de sa musique originale pour un moment inoubliable.</strong></p>\n\n<br>\n\n<p><em>Elles s’avancent dans l’ombre, longues silhouettes blanches, sur échasses, drapées de toiles, qui semblent attendre on ne sait quel rendez-vous.\nApparaissent au détour d’un arbre, au coin d’une rue, pourvues du seul langage des silences et des gestes lents ; elles entament d’étranges conciliabules, s’approchent, s’éloignent et nous invitent finalement à les suivre a l’appel de la musique de Sueño en la Fábrica...</em></p>\n\n<p>Le Rêve d’Herbert est une référence en matière de spectacle de rue et d’évènement. Depuis sa création, en juin 1997, plus de 400 représentations sur cinq continents, de Châlon dans la Rue (In et Off), au mondial de football 1998 en passant par Perth, Sidney ou Salt Lake City... Co-produit par <a href=\"https://www.inkonito.com/\" target=\"_blank\">Inko’Nito</a> [Nikola Martin] et la <a href=\"https://www.quidams.com/\" target=\"_blank\">Cie des Quidams</a> [Jean-Baptiste Duperray].</p>\n\n<p><strong>Personnages</strong> - Compagnie des Quidams<br>\n<strong>Alejandra Santander</strong> - Voix et instruments additionnels <br>\n<strong>Didier Boyat</strong> - Guitares, traffics sonores et claviers<br>\n<strong>Alain Garoby</strong> - Percussions <br>\n<strong>Nicolas Pellier</strong> - Batterie <br>\n<strong>Guillaume Grenard</strong> - Basse et trompette</p>",
+  "videos": [
+    {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/embed/7jub0sujjv4?autoplay=1"
+    }
+  ],
+  "gallery": [],
+  "files": [],
+  "externalLinks": [
+    {
+      "href": "https://www.inkonito.com/",
+      "label": "Inko’Nito",
+      "external": true
+    },
+    {
+      "href": "https://www.quidams.com/",
+      "label": "Cie des Quidams",
+      "external": true
+    }
+  ],
+  "relatedAlbumSlugs": [
+    "herbert"
+  ],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – Tous droits réservés<br>\n    Réalisation : <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Photos : Bernard Dutheil, Marc Dazy | Peinture : Belcha<br><br>Photos du spectacle « Éloge de l’arbre » : Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}

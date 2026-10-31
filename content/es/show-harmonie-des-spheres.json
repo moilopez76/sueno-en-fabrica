@@ -1,0 +1,31 @@
+{
+  "slug": "harmonie-des-spheres",
+  "category": "show",
+  "locale": "es",
+  "oldFile": "harmonie-des-spheres.php",
+  "oldUrl": "https://www.suenoenlafabrica.com/harmonie-des-spheres.php?lang=es",
+  "title": "La armonia de las esferas",
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/spheres.jpg",
+    "localSrc": "/media/images/header/spheres.jpg",
+    "alt": "La armonia de las esferas"
+  },
+  "bodyHtml": "<h2>Concierto de rendimiento</h2>\n\n<p align=\"center\"></p>\n\n\n\n\n<p>Basado en el libro de Dominique Proust \"La Armonía de las Esferas\" ed.Seuil</p>\n\n<em>\n\t<p>Tanto autónomos y conectados, como los planetas de<br>\n\tsistema, los artistas viajan por el mundo y los sonidos<br>\n\tcolor, imaginar una música de las esferas,<br>\n\tde sonido o de canción.</p>\n\t<p>Esta conferencia se mostrará, del libro de<br>\n\tDominique Proust, traza el paralelo histórico inquietante<br>\n\tla astronomía y la música vinculante.</p>\n</em>\n\n<p>Adaptación del texto: Didier Boyat<br>\nMúsica: Sueño en la Fabrica</p>\n\n<strong>Con:</strong>\n<ul>\n\t<li><strong>Alexandra Santander:</strong> voz y instrumentos adicionales</li>\n\t<li><strong>Véronique Burgos:</strong> coreografía</li>\n\t<li><strong>Bernard Dutheil:</strong> proyección de video</li>\n\t<li><strong>Yves Pignard:</strong> narración</li>\n\t<li><strong>Didier Boyat:</strong> teclados, guitarras y difusion del sonido</li>\n\t<li><strong>Jean Luc Peilhon:</strong> clarinete bajo, clarinete, armónica</li>\n</ul>\n\n<p>Este espectáculo se jugó en el CERN, Ginebra, Lyon Confluence-Museo, Festiplanètes, Villefranche-sur-Saone, Altec Alimentec Bourg en Bresse, Mélodifoliz, Ceyzériat...</p>",
+  "videos": [
+    {
+      "provider": "other",
+      "url": "https://www.dailymotion.com/embed/video/xqirn5?autoplay=1&logo=0"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "https://www.suenoenlafabrica.com/photos/spheres_article/proust.jpg",
+      "localSrc": "/media/photos/spheres_article/proust.jpg",
+      "alt": "Dominique Proust"
+    }
+  ],
+  "files": [],
+  "externalLinks": [],
+  "relatedAlbumSlugs": [],
+  "footerHtml": "<p><br>&nbsp;<br>Sueño en la Fábrica © 2026 – Todos los derechos reservados<br>Creación: <a href=\"https://www.dclic.info\" target=\"_blank\" title=\"Création de sites Internet\">D'CLIC Informatique</a> | Fotos: Bernard Dutheil, Marc Dazy | Pintura: Belcha<br><br>Más fotos: Cécile Gerbe, Carole Genetier, Monsieur Faure, JP Tridon et Lionel Deleage.</p>"
+}
