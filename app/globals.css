@@ -36,29 +36,14 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --background: #ffffff;
-    --surface: #f4f4f4;
-    --surface-elevated: #ffffff;
-    --surface-strong: #e9e9eb;
-    --foreground: #121212;
-    --foreground-muted: #6b6b70;
-    --muted: #6b6b70;
-    --accent: #e85a2c;
-    --accent-foreground: #ffffff;
-    --border: #e5e5e5;
-    --shadow-card: 0 1px 3px rgba(18, 18, 18, 0.08), 0 8px 20px rgba(18, 18, 18, 0.06);
-    --shadow-elevated: 0 12px 32px rgba(18, 18, 18, 0.14);
-  }
-}
-
 * {
   border-color: var(--border);
 }
 
+/* Dark is the only theme: force native form controls, scrollbars and iOS
+   Safari UI chrome into dark mode regardless of the OS/browser preference. */
 html {
-  color-scheme: light dark;
+  color-scheme: dark;
 }
 
 body {

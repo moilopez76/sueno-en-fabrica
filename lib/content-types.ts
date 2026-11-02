@@ -74,6 +74,10 @@ export interface FunderLogo {
 export interface SiteContent {
   locale: Locale;
   logo: ImageAsset;
+  /** Generic hero/header artwork reused across the home, contact, downloads,
+   * films, radio and references pages (same image as those pages'
+   * headerImage). Used as the blurred desktop backdrop. */
+  headerImage?: ImageAsset;
   shows: NavItem[];
   films: NavItem[];
   managedBy: { label: string; link: LinkRef; logo: ImageAsset };

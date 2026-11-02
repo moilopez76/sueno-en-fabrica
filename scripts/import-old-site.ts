@@ -323,6 +323,14 @@ async function importSite(locale: Locale, albums: Album[]): Promise<SiteContent>
     alt: $("#logo img").attr("alt") ?? "Sueño en la Fábrica",
   };
 
+  // Generic hero artwork reused across most pages (home, contact, downloads,
+  // films, radio, references): used as the blurred desktop backdrop.
+  const headerSrc = resolveUrl($("#entete").attr("src"));
+  const headerTitle = $("#text h1").first().text().trim() || $("title").text().trim();
+  const headerImage: ImageAsset | undefined = headerSrc
+    ? { src: headerSrc, localSrc: await resolveAsset(headerSrc, "image"), alt: headerTitle }
+    : undefined;
+
   const shows: NavItem[] = [];
   $(".bulle_spectacle a[href]").each((_, el) => {
     const href = $(el).attr("href");
@@ -391,7 +399,7 @@ async function importSite(locale: Locale, albums: Album[]): Promise<SiteContent>
 
   const footerHtml = await rewriteFooterHtml($, $("#copyright").first());
 
-  return { locale, logo, shows, films, managedBy, funders, footerHtml };
+  return { locale, logo, headerImage, shows, films, managedBy, funders, footerHtml };
 }
 
 async function rewriteFooterHtml($: Cheerio$, footerEl: ReturnType<Cheerio$>): Promise<string> {

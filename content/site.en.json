@@ -5,6 +5,11 @@
     "localSrc": "/media/images/logo.png",
     "alt": "Sueño en la Fabrica"
   },
+  "headerImage": {
+    "src": "https://www.suenoenlafabrica.com/images/header/generique.jpg",
+    "localSrc": "/media/images/header/generique.jpg",
+    "alt": "About us"
+  },
   "shows": [
     {
       "slug": "we-nous-nosotros",
