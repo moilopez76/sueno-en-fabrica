@@ -3,7 +3,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing, type Locale } from "@/i18n/routing";
-import { getSiteContent } from "@/lib/content";
+import { getSiteContent, getRadioContent } from "@/lib/content";
 import { absoluteMediaUrl, buildPageMetadata, SITE_URL } from "@/lib/seo";
 import { AudioProvider } from "@/components/audio/AudioProvider";
 import { PlayerBar } from "@/components/audio/PlayerBar";
@@ -57,6 +57,7 @@ export default async function LocaleLayout({
 
   const messages = await getMessages();
   const site = getSiteContent(locale as Locale);
+  const { albums } = getRadioContent();
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -80,7 +81,7 @@ export default async function LocaleLayout({
             >
               Aller au contenu principal
             </a>
-            <Sidebar site={site} />
+            <Sidebar site={site} albums={albums} />
             <MobileHeader site={site} />
             <div className="pb-[calc(140px+env(safe-area-inset-bottom))] md:ml-64 md:pb-20">
               <main id="main-content" className="mx-auto max-w-5xl px-4 py-6 sm:px-6">

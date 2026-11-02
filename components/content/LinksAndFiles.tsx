@@ -1,6 +1,9 @@
+"use client";
+
 import { useTranslations } from "next-intl";
+import { DownloadSimple } from "@phosphor-icons/react";
+import { Icon } from "@/components/Icon";
 import type { FileAsset, LinkRef } from "@/lib/content-types";
-import { IconDownload } from "@/components/icons/Icons";
 
 export function FileList({ files }: { files: FileAsset[] }) {
   const t = useTranslations("common");
@@ -14,7 +17,7 @@ export function FileList({ files }: { files: FileAsset[] }) {
             download
             className="tap-scale inline-flex items-center gap-2 rounded-lg bg-[var(--surface-strong)] px-4 py-2.5 text-sm font-medium text-[var(--foreground)] shadow-[var(--shadow-card)] transition-colors hover:bg-[var(--accent)] hover:text-black"
           >
-            <IconDownload className="h-4 w-4" />
+            <Icon icon={DownloadSimple} context="card" />
             {t("downloadFile")} — {file.label}
             <span className="text-xs uppercase text-[var(--foreground-muted)]">({file.type})</span>
           </a>

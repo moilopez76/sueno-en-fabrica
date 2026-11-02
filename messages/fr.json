@@ -8,7 +8,8 @@
     "downloads": "Téléchargements",
     "contact": "Contact",
     "menu": "Menu",
-    "closeMenu": "Fermer le menu"
+    "closeMenu": "Fermer le menu",
+    "more": "Plus"
   },
   "player": {
     "nowPlaying": "Lecture en cours",
@@ -22,9 +23,14 @@
     "playAlbum": "Lire l'album",
     "playAll": "Tout lire",
     "queue": "File d'attente",
+    "upNext": "À suivre",
     "noTrack": "Aucun morceau sélectionné",
     "expand": "Agrandir le lecteur",
-    "collapse": "Réduire le lecteur"
+    "collapse": "Réduire le lecteur",
+    "playingFrom": "Lecture depuis {album}",
+    "fullscreen": "Plein écran",
+    "share": "Partager",
+    "moreOptions": "Plus d'options"
   },
   "common": {
     "readMore": "En savoir plus",

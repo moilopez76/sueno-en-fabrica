@@ -1,20 +1,24 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --surface: #f4f4f4;
-  --surface-elevated: #ffffff;
-  --surface-strong: #e9e9eb;
-  --foreground: #121212;
-  --foreground-muted: #6b6b70;
-  --muted: #6b6b70;
+  --background: #0a0a0a;
+  --surface: #121212;
+  --surface-elevated: #181818;
+  --surface-strong: #242424;
+  --foreground: #f2f2f2;
+  --foreground-muted: #a7a7a7;
+  --muted: #a7a7a7;
   --accent: #ff6a3d;
-  --accent-foreground: #ffffff;
-  --border: #e5e5e5;
-  --shadow-card: 0 1px 3px rgba(18, 18, 18, 0.08), 0 8px 20px rgba(18, 18, 18, 0.06);
-  --shadow-elevated: 0 12px 32px rgba(18, 18, 18, 0.14);
+  --accent-foreground: #0a0a0a;
+  --border: #2a2a2a;
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.4), 0 10px 28px rgba(0, 0, 0, 0.5);
+  --shadow-elevated: 0 20px 48px rgba(0, 0, 0, 0.6);
   --safe-top: env(safe-area-inset-top, 0px);
   --safe-bottom: env(safe-area-inset-bottom, 0px);
+  /* Dominant colour sampled from the current album cover, used for soft
+     gradient backgrounds on album pages and the full-screen player. Falls
+     back to the surface colour when no cover colour has been sampled yet. */
+  --cover-color: var(--surface);
 }
 
 @theme inline {
@@ -32,20 +36,20 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
-    --background: #0a0a0a;
-    --surface: #121212;
-    --surface-elevated: #181818;
-    --surface-strong: #242424;
-    --foreground: #f2f2f2;
-    --foreground-muted: #a7a7a7;
-    --muted: #a7a7a7;
-    --accent: #ff6a3d;
-    --accent-foreground: #0a0a0a;
-    --border: #2a2a2a;
-    --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.4), 0 10px 28px rgba(0, 0, 0, 0.5);
-    --shadow-elevated: 0 20px 48px rgba(0, 0, 0, 0.6);
+    --background: #ffffff;
+    --surface: #f4f4f4;
+    --surface-elevated: #ffffff;
+    --surface-strong: #e9e9eb;
+    --foreground: #121212;
+    --foreground-muted: #6b6b70;
+    --muted: #6b6b70;
+    --accent: #e85a2c;
+    --accent-foreground: #ffffff;
+    --border: #e5e5e5;
+    --shadow-card: 0 1px 3px rgba(18, 18, 18, 0.08), 0 8px 20px rgba(18, 18, 18, 0.06);
+    --shadow-elevated: 0 12px 32px rgba(18, 18, 18, 0.14);
   }
 }
 
@@ -125,5 +129,12 @@ body {
 .tap-scale:active {
   transform: scale(0.94);
   opacity: 0.85;
+}
+
+/* Soft gradient behind album pages / the full-screen player, tinted with the
+   dominant colour sampled from the current cover (falls back to the plain
+   surface colour via --cover-color's default). */
+.cover-gradient {
+  background: linear-gradient(to bottom, color-mix(in srgb, var(--cover-color) 55%, transparent), var(--background) 65%);
 }
 

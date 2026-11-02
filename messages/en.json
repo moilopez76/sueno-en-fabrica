@@ -8,7 +8,8 @@
     "downloads": "Downloads",
     "contact": "Contact",
     "menu": "Menu",
-    "closeMenu": "Close menu"
+    "closeMenu": "Close menu",
+    "more": "More"
   },
   "player": {
     "nowPlaying": "Now playing",
@@ -22,9 +23,14 @@
     "playAlbum": "Play album",
     "playAll": "Play all",
     "queue": "Queue",
+    "upNext": "Up next",
     "noTrack": "No track selected",
     "expand": "Expand player",
-    "collapse": "Collapse player"
+    "collapse": "Collapse player",
+    "playingFrom": "Playing from {album}",
+    "fullscreen": "Full screen",
+    "share": "Share",
+    "moreOptions": "More options"
   },
   "common": {
     "readMore": "Read more",

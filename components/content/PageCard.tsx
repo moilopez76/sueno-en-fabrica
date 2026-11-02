@@ -1,7 +1,10 @@
+"use client";
+
 import Image from "next/image";
+import { FilmSlate } from "@phosphor-icons/react";
+import { Icon } from "@/components/Icon";
 import { Link } from "@/i18n/navigation";
 import type { ImageAsset } from "@/lib/content-types";
-import { IconFilm } from "@/components/icons/Icons";
 
 /** Spotify-style card for a show or film, linking to its detail page. */
 export function PageCard({
@@ -15,7 +18,7 @@ export function PageCard({
 }) {
   return (
     <Link href={href} className="tap-scale group w-40 flex-shrink-0 snap-start sm:w-52">
-      <div className="overflow-hidden rounded-xl bg-[var(--surface-strong)] shadow-[var(--shadow-card)] transition-transform duration-200 group-hover:-translate-y-1 group-hover:shadow-[var(--shadow-elevated)]">
+      <div className="overflow-hidden rounded-lg bg-[var(--surface-strong)] shadow-[var(--shadow-card)] transition-transform duration-200 group-hover:-translate-y-1 group-hover:shadow-[var(--shadow-elevated)]">
         {image ? (
           <Image
             src={image.localSrc || image.src}
@@ -26,7 +29,7 @@ export function PageCard({
           />
         ) : (
           <div className="flex aspect-video w-full items-center justify-center text-[var(--foreground-muted)]">
-            <IconFilm className="h-8 w-8" />
+            <Icon icon={FilmSlate} context="nav" size={32} />
           </div>
         )}
       </div>

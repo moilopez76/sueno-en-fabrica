@@ -10,6 +10,7 @@ import { TrackList } from "@/components/content/TrackList";
 import { PlayAlbumButton } from "@/components/content/PlayButtons";
 import { PageCard } from "@/components/content/PageCard";
 import { Carousel } from "@/components/content/Carousel";
+import { AlbumGlow } from "@/components/content/AlbumGlow";
 
 export function generateStaticParams() {
   const { albums } = getRadioContent();
@@ -63,9 +64,10 @@ export default async function AlbumDetailPage({
   };
 
   return (
-    <div>
+    <div className="relative">
       {/* eslint-disable-next-line react/no-danger */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <AlbumGlow src={album.cover.localSrc || album.cover.src} />
       <div className="mb-6 flex flex-col items-center gap-4 sm:flex-row sm:items-end">
         <Image
           src={album.cover.localSrc || album.cover.src}

@@ -8,7 +8,8 @@
     "downloads": "Descargas",
     "contact": "Contacto",
     "menu": "Menú",
-    "closeMenu": "Cerrar menú"
+    "closeMenu": "Cerrar menú",
+    "more": "Más"
   },
   "player": {
     "nowPlaying": "Reproduciendo",
@@ -22,9 +23,14 @@
     "playAlbum": "Reproducir álbum",
     "playAll": "Reproducir todo",
     "queue": "Cola",
+    "upNext": "A continuación",
     "noTrack": "Ninguna pista seleccionada",
     "expand": "Ampliar el reproductor",
-    "collapse": "Reducir el reproductor"
+    "collapse": "Reducir el reproductor",
+    "playingFrom": "Reproduciendo desde {album}",
+    "fullscreen": "Pantalla completa",
+    "share": "Compartir",
+    "moreOptions": "Más opciones"
   },
   "common": {
     "readMore": "Leer más",
