@@ -54,6 +54,11 @@ from the Downloads page) is automatically kept remote so the repository doesn't 
 With `ASSET_MODE=remote` or `AUDIO_MODE=remote`, the relevant `next.config.ts` `images.remotePatterns` entry
 for `www.suenoenlafabrica.com` keeps `next/image` working against the old host.
 
+> **Note:** `public/media/images/header/generique.jpg` was manually replaced with a higher-resolution
+> remaster of the same hero artwork (used for the blurred desktop backdrop). Re-running the importer
+> re-downloads the original lower-resolution file from the old site and will overwrite it — re-apply the
+> remastered version afterwards if you re-import.
+
 ## Development
 
 ```bash
@@ -79,3 +84,5 @@ network access to the old site.
 - `sitemap.xml`, `robots.txt`, per-page Open Graph metadata, hreflang alternates and JSON-LD
   (`MusicGroup`/`MusicAlbum`) are generated from the same `/content` data — see `app/sitemap.ts`,
   `app/robots.ts` and `lib/seo.ts`.
+- Set `NEXT_PUBLIC_SITE_URL` (e.g. `https://suenoenlafabrica.com`) in production so canonical URLs,
+  `sitemap.xml` and Open Graph tags point at the real domain instead of the placeholder default.

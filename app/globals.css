@@ -1,21 +1,33 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --surface: #f4f4f4;
-  --surface-elevated: #ffffff;
-  --foreground: #121212;
-  --muted: #5a5a5a;
+  --background: #0a0a0a;
+  --surface: #121212;
+  --surface-elevated: #181818;
+  --surface-strong: #242424;
+  --foreground: #f2f2f2;
+  --foreground-muted: #a7a7a7;
+  --muted: #a7a7a7;
   --accent: #ff6a3d;
-  --accent-foreground: #ffffff;
-  --border: #e5e5e5;
+  --accent-foreground: #0a0a0a;
+  --border: #2a2a2a;
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.4), 0 10px 28px rgba(0, 0, 0, 0.5);
+  --shadow-elevated: 0 20px 48px rgba(0, 0, 0, 0.6);
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  /* Dominant colour sampled from the current album cover, used for soft
+     gradient backgrounds on album pages and the full-screen player. Falls
+     back to the surface colour when no cover colour has been sampled yet. */
+  --cover-color: var(--surface);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-surface: var(--surface);
   --color-surface-elevated: var(--surface-elevated);
+  --color-surface-strong: var(--surface-strong);
   --color-foreground: var(--foreground);
+  --color-foreground-muted: var(--foreground-muted);
   --color-muted: var(--muted);
   --color-accent: var(--accent);
   --color-accent-foreground: var(--accent-foreground);
@@ -24,30 +36,33 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --surface: #121212;
-    --surface-elevated: #1a1a1a;
-    --foreground: #ededed;
-    --muted: #a7a7a7;
-    --accent: #ff6a3d;
-    --accent-foreground: #0a0a0a;
-    --border: #2a2a2a;
-  }
-}
-
 * {
   border-color: var(--border);
 }
 
+/* Dark is the only theme: force native form controls, scrollbars and iOS
+   Safari UI chrome into dark mode regardless of the OS/browser preference. */
 html {
-  color-scheme: light dark;
+  color-scheme: dark;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Consistent, visible keyboard focus ring across all interactive elements. */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+[role="button"]:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -79,7 +94,7 @@ body {
 }
 
 .prose-sueno :where(em) {
-  color: var(--muted);
+  color: var(--foreground-muted);
 }
 
 .prose-sueno :where(strong) {
@@ -93,5 +108,31 @@ body {
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+/* Safe-area aware padding for fixed bottom chrome (notches / home indicators). */
+.pb-safe {
+  padding-bottom: calc(var(--safe-bottom));
+}
+
+.pt-safe {
+  padding-top: calc(var(--safe-top));
+}
+
+/* Subtle press feedback for touch targets that don't have a hover state on mobile. */
+.tap-scale {
+  transition: transform 0.12s ease, opacity 0.12s ease;
+}
+
+.tap-scale:active {
+  transform: scale(0.94);
+  opacity: 0.85;
+}
+
+/* Soft gradient behind album pages / the full-screen player, tinted with the
+   dominant colour sampled from the current cover (falls back to the plain
+   surface colour via --cover-color's default). */
+.cover-gradient {
+  background: linear-gradient(to bottom, color-mix(in srgb, var(--cover-color) 55%, transparent), var(--background) 65%);
 }
 

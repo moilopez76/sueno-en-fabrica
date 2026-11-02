@@ -1,9 +1,10 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
+import Image from "next/image";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing, type Locale } from "@/i18n/routing";
-import { getSiteContent } from "@/lib/content";
+import { getSiteContent, getRadioContent } from "@/lib/content";
 import { absoluteMediaUrl, buildPageMetadata, SITE_URL } from "@/lib/seo";
 import { AudioProvider } from "@/components/audio/AudioProvider";
 import { PlayerBar } from "@/components/audio/PlayerBar";
@@ -15,6 +16,13 @@ import "../globals.css";
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
+
+// The site is dark-only: pin the native UI chrome (iOS Safari status bar,
+// form controls, scrollbars) to dark regardless of the OS/browser preference.
+export const viewport: Viewport = {
+  themeColor: "#0a0a0a",
+  colorScheme: "dark",
+};
 
 export async function generateMetadata({
   params,
@@ -57,6 +65,7 @@ export default async function LocaleLayout({
 
   const messages = await getMessages();
   const site = getSiteContent(locale as Locale);
+  const { albums } = getRadioContent();
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -80,10 +89,28 @@ export default async function LocaleLayout({
             >
               Aller au contenu principal
             </a>
-            <Sidebar site={site} />
+            {/* Desktop-only full-bleed blurred backdrop (the remastered hero
+                artwork), Spotify "now playing"-style. Hidden on mobile/tablet,
+                which keep the plain flat background. */}
+            {site.headerImage?.localSrc && (
+              <div aria-hidden className="pointer-events-none fixed inset-0 z-0 hidden overflow-hidden md:block">
+                <Image
+                  src={site.headerImage.localSrc || site.headerImage.src}
+                  alt=""
+                  fill
+                  priority
+                  className="scale-110 object-cover opacity-50 blur-3xl saturate-125"
+                />
+                <div className="absolute inset-0 bg-[var(--background)]/70" />
+              </div>
+            )}
+            <Sidebar site={site} albums={albums} />
             <MobileHeader site={site} />
-            <div className="pb-[112px] md:ml-64 md:pb-20">
-              <main id="main-content" className="mx-auto max-w-5xl px-4 py-6 sm:px-6">
+            <div className="relative z-10 pb-[calc(140px+env(safe-area-inset-bottom))] md:ml-64 md:pb-20">
+              <main
+                id="main-content"
+                className="mx-auto max-w-5xl px-4 py-6 sm:px-6 md:my-6 md:rounded-2xl md:bg-[var(--surface)]/70 md:py-8 md:shadow-[var(--shadow-elevated)] md:backdrop-blur-xl"
+              >
                 {children}
               </main>
             </div>

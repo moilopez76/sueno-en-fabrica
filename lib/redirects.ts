@@ -6,6 +6,7 @@ type Redirect = {
   destination: string;
   permanent: boolean;
   has?: { type: "query"; key: string; value: string }[];
+  missing?: { type: "query"; key: string }[];
 };
 
 /**
@@ -18,13 +19,6 @@ export function buildOldSiteRedirects(): Redirect[] {
   for (const entry of OLD_PAGES) {
     const source = `/${entry.file}`;
 
-    // No ?lang= query -> old site defaulted to French.
-    redirects.push({
-      source,
-      destination: newPathFor(entry, "fr"),
-      permanent: true,
-    });
-
     for (const locale of locales) {
       redirects.push({
         source,
@@ -33,6 +27,16 @@ export function buildOldSiteRedirects(): Redirect[] {
         permanent: true,
       });
     }
+
+    // No ?lang= query -> old site defaulted to French. This must come after the
+    // locale-specific rules above, and only match when `lang` is absent,
+    // otherwise it would shadow them (Next.js uses the first matching rule).
+    redirects.push({
+      source,
+      missing: [{ type: "query", key: "lang" }],
+      destination: newPathFor(entry, "fr"),
+      permanent: true,
+    });
   }
 
   return redirects;

@@ -86,6 +86,9 @@ export function AudioProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const startQueue = useCallback((tracks: PlayableTrack[], startIndex: number) => {
+    // Stop whatever is currently audible immediately (before the state
+    // update below even commits) so switching tracks/albums never overlaps.
+    audioRef.current?.pause();
     setError(null);
     setQueue(tracks);
     setCurrentIndex(startIndex);
@@ -111,6 +114,7 @@ export function AudioProvider({ children }: { children: ReactNode }) {
   );
 
   const playTrackFromQueue = useCallback((index: number) => {
+    audioRef.current?.pause();
     setError(null);
     setCurrentIndex(index);
     setIsPlaying(true);
@@ -161,18 +165,26 @@ export function AudioProvider({ children }: { children: ReactNode }) {
   }, []);
 
   // Load the current track into the <audio> element whenever it changes.
+  // Always fully stop and unload whatever was previously playing first
+  // (pause + reset position + clear the old source) so a track switch can
+  // never result in two tracks being audible at the same time.
   useEffect(() => {
     const audio = audioRef.current;
-    if (!audio || !currentTrack) return;
+    if (!audio) return;
+    audio.pause();
+    audio.currentTime = 0;
+    if (!currentTrack) {
+      audio.removeAttribute("src");
+      audio.load();
+      return;
+    }
     setIsLoading(true);
     setError(null);
     audio.src = currentTrack.localAudioSrc || currentTrack.audioSrc;
     audio.load();
-    if (isPlaying) {
-      audio.play().catch(() => {
-        // Autoplay can be blocked until a user gesture; the user can press play again.
-      });
-    }
+    // Playback itself is started by the play/pause sync effect below, once
+    // the new source has been assigned — this keeps a single place that
+    // ever calls audio.play().
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentIndex, currentTrack?.file]);
 

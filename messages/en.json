@@ -6,7 +6,10 @@
     "radio": "Radio Sueño",
     "references": "References",
     "downloads": "Downloads",
-    "contact": "Contact"
+    "contact": "Contact",
+    "menu": "Menu",
+    "closeMenu": "Close menu",
+    "more": "More"
   },
   "player": {
     "nowPlaying": "Now playing",
@@ -20,7 +23,14 @@
     "playAlbum": "Play album",
     "playAll": "Play all",
     "queue": "Queue",
-    "noTrack": "No track selected"
+    "upNext": "Up next",
+    "noTrack": "No track selected",
+    "expand": "Expand player",
+    "collapse": "Collapse player",
+    "playingFrom": "Playing from {album}",
+    "fullscreen": "Full screen",
+    "share": "Share",
+    "moreOptions": "More options"
   },
   "common": {
     "readMore": "Read more",

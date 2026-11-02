@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import type { Album, PageContent } from "@/lib/content-types";

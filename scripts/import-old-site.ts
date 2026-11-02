@@ -323,6 +323,14 @@ async function importSite(locale: Locale, albums: Album[]): Promise<SiteContent>
     alt: $("#logo img").attr("alt") ?? "Sueño en la Fábrica",
   };
 
+  // Generic hero artwork reused across most pages (home, contact, downloads,
+  // films, radio, references): used as the blurred desktop backdrop.
+  const headerSrc = resolveUrl($("#entete").attr("src"));
+  const headerTitle = $("#text h1").first().text().trim() || $("title").text().trim();
+  const headerImage: ImageAsset | undefined = headerSrc
+    ? { src: headerSrc, localSrc: await resolveAsset(headerSrc, "image"), alt: headerTitle }
+    : undefined;
+
   const shows: NavItem[] = [];
   $(".bulle_spectacle a[href]").each((_, el) => {
     const href = $(el).attr("href");
@@ -391,12 +399,18 @@ async function importSite(locale: Locale, albums: Album[]): Promise<SiteContent>
 
   const footerHtml = await rewriteFooterHtml($, $("#copyright").first());
 
-  return { locale, logo, shows, films, managedBy, funders, footerHtml };
+  return { locale, logo, headerImage, shows, films, managedBy, funders, footerHtml };
 }
 
 async function rewriteFooterHtml($: Cheerio$, footerEl: ReturnType<Cheerio$>): Promise<string> {
-  // The footer has no media of its own (just text + the dclic.info link); keep it verbatim.
-  return footerEl.html()?.trim() ?? "";
+  // The footer has no media of its own; keep the text verbatim except for the
+  // "Réalisation" credit link, which by explicit request now points to this
+  // remaster's author instead of the original site builder (D'CLIC Informatique).
+  const html = footerEl.html()?.trim() ?? "";
+  return html.replace(
+    /<a href="https:\/\/www\.dclic\.info"[^>]*>[^<]*<\/a>/i,
+    '<a href="https://moi-lopez.com" target="_blank" title="Moises Lopez">Moises Lopez</a>',
+  );
 }
 
 // ---------------------------------------------------------------------------
